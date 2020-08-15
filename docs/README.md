@@ -1,1 +1,1 @@
-# Store theme
+# Healthy Store

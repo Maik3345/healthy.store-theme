@@ -7,14 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [1.0.0] - 2020-08-11
-### Added
-- create store theme base.
+## [1.0.0] - 2020-08-15
 
-## [1.0.2] - 2020-08-12
 ### Added
-- site structure
 
-## [1.0.2] - 2020-08-13
-### Added
-- add biggy search
+- Create Healthy store-theme.
