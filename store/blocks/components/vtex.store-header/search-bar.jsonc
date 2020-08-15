@@ -1,0 +1,29 @@
+{
+  "search-bar#header": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "placeholder": "Encuentra el producto que tanto quieres",
+      "openAutocompleteOnFocus": true,
+      "maxWidth": "630px",
+      "autoFocus": false,
+      "blurOnSubmit": true
+    }
+  },
+  "flex-layout.col#search-bar": {
+    "props": {
+      "blockClass": "search-bar-row",
+      "verticalAlign": "middle",
+      "width": "grow"
+    },
+    "children": ["search-bar#header"]
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#one"],
+    "props": {
+      "historyFirst": true,
+      "maxTopSearches": 5,
+      "autocompleteWidth": 60,
+      "__unstableProductOrigin": "VTEX"
+    }
+  }
+}

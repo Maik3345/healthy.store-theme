@@ -1,0 +1,10 @@
+{
+  "flex-layout.col#header-options": {
+    "props": {
+      "blockClass": "header-options",
+      "verticalAlign": "middle",
+      "width": "20%"
+    },
+    "children": ["minicart.v2"]
+  }
+}

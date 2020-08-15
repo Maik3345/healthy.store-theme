@@ -1,0 +1,44 @@
+{
+    "store.home": {
+      "blocks": [
+        "list-context.image-list#home-carouse-images",
+        /* You can make references to blocks defined in other files.
+         * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+        "__fold__.experimentalLazyAssets",
+        "flex-layout.row#deals",
+        "rich-text",
+        "list-context.product-list#one",
+        "rich-text#question",
+        "info-card#home",
+        "newsletter"
+      ]
+    },
+    "rich-text": {
+      "props": {
+        "text": "VTEX Store Framework",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-1"
+      }
+    },
+    "info-card#home": {
+      "props": {
+        "id": "info-card-home",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+        "headline": "Clearance Sale",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info-card-home",
+        "textAlignment": "center"
+      }
+    },
+    "rich-text#question": {
+      "props": {
+        "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+        "blockClass": "question"
+      }
+    }
+  }
+  

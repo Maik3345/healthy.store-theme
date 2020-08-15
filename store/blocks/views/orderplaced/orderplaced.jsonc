@@ -1,0 +1,6 @@
+{
+    "store.orderplaced": {
+      "blocks": ["order-placed"]
+    }
+  }
+  

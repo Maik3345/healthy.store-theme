@@ -1,0 +1,15 @@
+{
+  "add-to-cart-button#shelf": {
+    "props": {
+      "text": "¡Lo quiero!",
+      "unavailableText": "No disponible",
+      "onClickBehavior": "go-to-product-page"
+    }
+  },
+  "add-to-cart-button#product": {
+    "props": {
+      "text": "Añadir al carrito",
+      "unavailableText": "No disponible"
+    }
+  }
+}
