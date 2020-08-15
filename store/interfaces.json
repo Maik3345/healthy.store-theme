@@ -1,1 +1,7 @@
-{}
+{
+  "store.icons": {
+    "before": ["header.full"],
+    "after": ["footer"],
+    "required": ["chef-icons-list"]
+  }
+}

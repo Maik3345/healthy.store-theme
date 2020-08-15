@@ -56,7 +56,8 @@
     "vtex.store-link": "0.x",
     "vtex.product-gifts": "0.x",
     "vtex.product-price": "1.x",
-    "chefcompany.home": "0.x"
+    "chefcompany.home": "0.x",
+    "chefcompany.store-utils": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
