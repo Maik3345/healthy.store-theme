@@ -1,19 +1,6 @@
 {
-  "store.home": {
-    "blocks": [
-      "list-context.image-list#home-carouse-images",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "box-featured#home-healthy",
-      "info-card-chef#home-healthy",
-      "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
-      "rich-text",
-      "list-context.product-list#one",
-      "rich-text#question",
-      "info-card#home",
-      "newsletter"
-    ]
+  "store.home.custom": {
+    "blocks": ["render-manager#home-six", "__fold__"]
   },
   "rich-text": {
     "props": {

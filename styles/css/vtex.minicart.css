@@ -1,0 +1,14 @@
+.openIconContainer {
+  padding: 0;
+}
+
+.openIconContainer :global(.vtex-button) {
+  outline: none;
+}
+
+.openIconContainer :global(.vtex-button):hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.minicartIconContainer {
+}

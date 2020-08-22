@@ -3,12 +3,22 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": ["flex-layout.row#logo-mobile", "flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#logo-mobile": {
+    "children": ["logo#mobile"],
+    "props": {
+      "blockClass": "main-header-logo-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
-      "logo#mobile",
+      "category-menu-list",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -19,9 +29,6 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  },
-  "drawer": {
-    "children": ["menu#drawer"]
   },
 
   "menu#drawer": {
@@ -39,8 +46,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "70"
+      "url": "https://chefcompany.vtexassets.com/assets/vtex.file-manager-graphql/images/f13c1197-cb83-49a7-be11-f3a49fbd2e30___45f120aebbaa697626c4c1a48f653f8b.png",
+      "width": "150"
     }
   }
 }

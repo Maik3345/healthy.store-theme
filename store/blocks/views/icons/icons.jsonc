@@ -1,0 +1,10 @@
+{
+  "icons-list-render#page": {
+    "props": {
+      "customIcons": ["mpa-shopping-icon"]
+    }
+  },
+  "store.icons": {
+    "blocks": ["icons-list-render#page"]
+  }
+}

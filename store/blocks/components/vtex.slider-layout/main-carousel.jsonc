@@ -1,5 +1,5 @@
 {
-  "slider-layout#home-carouse-images": {
+  "slider-layout#healthy-carouse-images": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -7,8 +7,8 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "showNavigationArrows": "never",
+      "blockClass": "carousel-home-main"
     }
   }
 }

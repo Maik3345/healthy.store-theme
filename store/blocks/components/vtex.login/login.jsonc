@@ -1,0 +1,10 @@
+{
+  "login#header": {
+    "props": {
+      "iconLabel": "Ingresar",
+      "showIconProfile": true,
+      "iconSize": 30,
+      "labelClasses": "login-header-icon-desktop"
+    }
+  }
+}

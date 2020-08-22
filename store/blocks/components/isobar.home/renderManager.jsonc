@@ -1,0 +1,68 @@
+{
+  "render-manager#home-six": {
+    "props": {
+      "schemaName": "Render Manager One",
+      "componentsToRender": [
+        {
+          "__editorItemTitle": "Info Card Banner 1",
+          "name": "Info Card Banner 1",
+          "key": "wrapper-component#info-card-banner-healthy-one"
+        },
+        {
+          "__editorItemTitle": "Info Card Banner 2",
+          "name": "Info Card Banner 2",
+          "key": "wrapper-component#info-card-banner-healthy-two"
+        },
+        {
+          "__editorItemTitle": "Info Card Banner 3",
+          "name": "Info Card Banner 3",
+          "key": "wrapper-component#info-card-banner-healthy-three"
+        },
+        {
+          "__editorItemTitle": "Info Card Banner 4",
+          "name": "Info Card Banner 4",
+          "key": "wrapper-component#info-card-banner-healthy-four"
+        },
+        {
+          "__editorItemTitle": "Info Card Banner 5",
+          "name": "Info Card Banner 5",
+          "key": "wrapper-component#info-card-banner-healthy-five"
+        },
+        {
+          "__editorItemTitle": "Main Carousel",
+          "name": "Main Carousel",
+          "key": "wrapper-component#main-carousel-healthy-one"
+        }
+      ],
+      "componentsList": [
+        {
+          "key": "wrapper-component#main-carousel-healthy-one",
+          "__editorItemTitle": "Main Carousel"
+        },
+        {
+          "key": "wrapper-component#box-featured-healthy-one",
+          "__editorItemTitle": "Department List 1"
+        },
+        {
+          "key": "wrapper-component#info-card-banner-healthy-one",
+          "__editorItemTitle": "Info Card One"
+        }
+      ]
+    },
+    "children": [
+      "wrapper-component#info-card-banner-healthy-one",
+      "wrapper-component#info-card-banner-healthy-two",
+      "wrapper-component#info-card-banner-healthy-three",
+      "wrapper-component#info-card-banner-healthy-four",
+      "wrapper-component#info-card-banner-healthy-five",
+
+      "wrapper-component#box-featured-healthy-one",
+      "wrapper-component#box-featured-healthy-two",
+      "wrapper-component#box-featured-healthy-three",
+      "wrapper-component#box-featured-healthy-four",
+      "wrapper-component#box-featured-healthy-five",
+
+      "wrapper-component#main-carousel-healthy-one"
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "footer.store": {
+    "children": ["flex-layout.row#newsletter", "footer-render#principal"]
+  },
+  "footer-render#principal": {
+    "children": ["html-render#footer"],
+    "props": {
+      "showComponent": true,
+      "typeConfiguration": "columns",
+      "columns": {
+        "show": true,
+        "alignCollapse": "right",
+        "collapseOnWeb": false,
+        "hideWhenIsMobile": true,
+        "links": [
+          {
+            "icon": { "size": 0 },
+            "linksItems": [
+              {
+                "icon": { "size": 0 },
+                "seo": {},
+                "text": "Preguntas frecuentes"
+              },
+              { "icon": { "size": 0 }, "seo": {}, "text": "Dia sin IVA" },
+              { "icon": { "size": 0 }, "seo": {}, "text": "Sobre nosotros" }
+            ],
+            "title": "Centro de ayuda"
+          },
+          {
+            "title": "Tienda Celsia",
+            "icon": { "size": 0 },
+            "linksItems": [
+              {
+                "icon": { "size": 0 },
+                "seo": { "class": "", "id": "" },
+                "text": "Electrónica y tecnología",
+                "url": "/"
+              },
+              {
+                "icon": { "size": 0 },
+                "seo": {},
+                "text": "Electrodomésticos",
+                "url": "/"
+              },
+              {
+                "icon": { "size": 0 },
+                "seo": {},
+                "text": "Iluminación",
+                "url": "/"
+              },
+              { "icon": { "size": 0 }, "seo": {}, "text": "Ofertas" }
+            ]
+          },
+          {
+            "icon": { "size": 0 },
+            "linksItems": [
+              { "icon": { "size": 0 }, "seo": {}, "text": "Fundación" },
+              { "icon": { "size": 0 }, "seo": {}, "text": "Proveedores" },
+              { "icon": { "size": 0 }, "seo": {}, "text": "Sostenibilidad" }
+            ],
+            "title": "Quiénes somos"
+          },
+          {
+            "title": "Redes sociales",
+            "icon": null,
+            "linksItems": [
+              {
+                "icon": { "id": "hpa-profile", "size": 20 },
+                "seo": { "class": "", "id": "" },
+                "text": "Facebook",
+                "url": "/"
+              },
+              {
+                "icon": { "id": "hpa-profile", "size": 24 },
+                "seo": { "class": "", "id": "" },
+                "text": "Twitter",
+                "url": "/"
+              },
+              {
+                "icon": { "size": 24, "id": "hpa-profile" },
+                "seo": {},
+                "text": "Instagram"
+              },
+              {
+                "icon": { "size": 24, "id": "hpa-profile" },
+                "seo": {},
+                "text": "Youtube"
+              },
+              {
+                "icon": { "size": 25, "id": "hpa-profile" },
+                "seo": {},
+                "text": "Likedin"
+              }
+            ]
+          }
+        ]
+      },
+      "logo": {
+        "show": true,
+        "text": {
+          "title": "Línea de atención al cliente",
+          "message": "018000 112 115"
+        },
+        "image": {
+          "alt": "",
+          "logoUrl": "/assets/vtex.file-manager-graphql/images/2e6826c4-bcc0-48de-ba74-13b0e3f20a7f__8e598586e90e583aa5df11ab98bdcf9c.svg",
+          "url": "/",
+          "height": { "mobile": "65px", "web": "65px" },
+          "width": { "mobile": "160px", "web": "230px" }
+        }
+      },
+      "information": { "show": true },
+      "social": {
+        "show": false,
+        "icons": [
+          {
+            "id": "hpa-profile",
+            "size": 20,
+            "url": "",
+            "seo": { "id": "", "class": "" }
+          },
+          {
+            "id": "hpa-profile",
+            "size": 20,
+            "url": "",
+            "seo": { "id": "", "class": "" }
+          },
+          {
+            "id": "hpa-profile",
+            "size": 20,
+            "url": "",
+            "seo": { "id": "", "class": "" }
+          }
+        ]
+      },
+      "image": "/assets/vtex.file-manager-graphql/images/8c183cc3-31d4-45ff-8019-627da1b2c797__8e598586e90e583aa5df11ab98bdcf9c.svg",
+      "children": [
+        {
+          "key": "around-store.home/$after_footer.store/footer-chef#principal-0",
+          "ref": null,
+          "props": {
+            "id": "html-render-chef#footer",
+            "blockProps": {
+              "schemaName": "Html Render",
+              "showComponent": true,
+              "htmlContent": "<p>Site Information Html Render</p>",
+              "customClass": ""
+            },
+            "treePath": "store.home/$after_footer.store/footer-chef#principal"
+          },
+          "_owner": null
+        }
+      ]
+    }
+  },
+  "flex-layout.row#newsletter": {
+    "children": ["chef-newsletter"]
+  }
+}

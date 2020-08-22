@@ -3,6 +3,7 @@
     "props": {
       "title": "DEPARTAMENTOS",
       "withImage": "100%",
+      "maxWidth": "1280px",
       "gridConfig": { "lg": 3, "md": 4, "sm": 4, "xl": 3, "xs": 6 },
       "schemaName": "Departments",
       "boxList": [

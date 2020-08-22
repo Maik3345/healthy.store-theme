@@ -1,0 +1,63 @@
+.withIconContainer--login {
+  display: flex;
+  align-items: center;
+  color: #707070;
+  margin-right: 20px;
+}
+
+.withIconContainer--login :global(.vtex-button__label) {
+  padding: 0;
+}
+
+.withIconContainer--login :global(.vtex-login-2-x-label) {
+  padding: 0 0 0 5px;
+  text-transform: initial;
+  color: #707070;
+  font-size: 14px;
+}
+
+.withIconContainer--login :global(.vtex-button) {
+  outline: none;
+}
+
+.withIconContainer--login :global(.vtex-button):hover,
+.withIconContainer--login :global(.vtex-button):focus {
+  background: transparent;
+}
+
+.withIcon {
+  line-height: 1px;
+}
+
+.withIcon--login {
+  margin-right: 5px;
+}
+
+.withIconContainer--orders,
+.withLoginContainer--orders {
+  display: flex;
+  align-items: center;
+  color: #707070;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.withLoginContainer--orders {
+  margin-right: 20px;
+}
+
+.withIcon--orders {
+  margin-right: 10px;
+}
+
+.withIconChildren--login :global(.vtex-login-2-x-profile) {
+  color: #707070;
+  text-transform: initial;
+  font-size: 14px;
+}
+
+
+.withLoginContainer--icon-mobile {
+  margin: 0 0 0 20px;
+  color: #707070;
+}

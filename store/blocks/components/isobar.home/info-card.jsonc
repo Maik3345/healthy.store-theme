@@ -1,8 +1,14 @@
 {
-  "info-card-chef#home-healthy": {
+  "info-card-render#home-healthy": {
     "props": {
+      "showComponent": true,
       "schemaName": "Banner FULL",
+      "margin": {
+        "web": "0 auto",
+        "mobile": "0 auto"
+      },
       "image": {
+        "maxWidth": "1280px",
         "web": "https://chefcompany.vtexassets.com/assets/vtex.file-manager-graphql/images/bea90c11-c117-4847-ac9c-7ab7e8e3a168___9b16d2ee7f6df2cb6294a86113d1acf1.png",
         "mobile": "",
         "url": "/",

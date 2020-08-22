@@ -2,6 +2,32 @@
   "store.icons": {
     "before": ["header.full"],
     "after": ["footer"],
-    "required": ["chef-icons-list"]
+    "required": ["icons-list-render"]
+  },
+  "store.home.custom": {
+    "before": ["header.full"],
+    "after": ["footer.store"]
+  },
+  "store.account.custom": {
+    "before": ["header.full"],
+    "after": ["footer.store"],
+    "required": ["my-account"]
+  },
+  "store.login.custom": {
+    "before": ["header.full"],
+    "after": ["footer.store"],
+    "required": ["login-content"]
+  },
+  "store.orderplaced.custom": {
+    "before": ["header.full"],
+    "after": ["footer.store"]
+  },
+  "store.product.custom": {
+    "before": ["header.full"],
+    "after": ["footer.store"]
+  },
+  "store.search.custom": {
+    "before": ["header.full"],
+    "after": ["footer.store"]
   }
 }

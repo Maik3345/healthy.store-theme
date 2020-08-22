@@ -1,3 +1,19 @@
+/* Logo Container */
+.flexRowContent--main-header-logo-mobile {
+  background: #fafbfb;
+}
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  background-color: #fafbfb;
+  padding: 0;
+}
+
+/* Header */
+.flexRow--main-header {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
@@ -22,12 +38,6 @@
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
-}
-
-.flexRowContent--main-header-mobile {
-  align-items: center;
-  padding: 0.625rem 0.5rem;
   background-color: #f0f0f0;
 }
 
@@ -95,4 +105,53 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+/*Carousel Home*/
+
+.flexRowContent--slider-layout-home {
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 0 60px 0;
+}
+
+.flexRow--slider-layout-home {
+  background: #f0f0f0;
+}
+
+/* Main Carousel with banner */
+.flexRow--main-carousel-home {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flexRow--main-carousel-home :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRowContent--home-search-result :global(.vtex-search-result-3-x-gallery) {
+  padding: 0;
+}
+
+/* Login Container button */
+.flexColChild--login-container-desktop {
+  margin: 0 40px;
+}
+
+.flexColChild--login-container-desktop :global(.vtex-button) {
+  outline: none;
+}
+.flexColChild--login-container-desktop :global(.vtex-button):hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.flexColChild--login-container-desktop :global(.vtex-button__label) {
+  padding: 4px 15px;
+}
+
+.flexColChild--login-container-desktop :global(.vtex-login-2-x-label) {
+  padding-left: 0px;
+  color: #3c3c3c;
+  text-transform: uppercase;
 }

@@ -1,0 +1,18 @@
+{
+  "list-context.image-list#healthy-carousel-images": {
+    "children": ["slider-layout#healthy-carouse-images"],
+    "props": {
+      "height": 800,
+      "images": [
+        {
+          "image": "https://dummyimage.com/1366x450/cfc9cf/fff",
+          "mobileImage": "https://dummyimage.com/750x557/cfc9cf/fff"
+        },
+        {
+          "image": "https://dummyimage.com/1366x450/cfc9cf/fff",
+          "mobileImage": "https://dummyimage.com/750x557/cfc9cf/fff"
+        }
+      ]
+    }
+  }
+}
