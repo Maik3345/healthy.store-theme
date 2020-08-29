@@ -1,13 +1,6 @@
 {
   "store.home.custom": {
-    "blocks": [
-      "render-manager#home-six",
-      "flex-layout.row#shelf",
-      "wrapper-component#department-grid-one",
-      "wrapper-component#featured-carousel-one",
-      "wrapper-component#marks-carousel-one",
-      "__fold__"
-    ]
+    "blocks": ["render-manager#home-six", "__fold__"]
   },
   "rich-text": {
     "props": {

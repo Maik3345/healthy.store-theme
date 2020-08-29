@@ -4,34 +4,34 @@
       "schemaName": "Contenedor Banner 1",
       "showComponent": true
     },
-    "children": ["info-card-render#home-healthy"]
+    "children": ["info-card-render#home-healthy-one"]
   },
   "wrapper-component#info-card-banner-healthy-two": {
     "props": {
       "schemaName": "Contenedor Banner 2",
-      "showComponent": false
+      "showComponent": true
     },
-    "children": ["info-card-render#home-healthy"]
+    "children": ["info-card-render#home-healthy-two"]
   },
   "wrapper-component#info-card-banner-healthy-three": {
     "props": {
       "schemaName": "Contenedor Banner 3",
       "showComponent": false
     },
-    "children": ["info-card-render#home-healthy"]
+    "children": ["info-card-render#home-healthy-one"]
   },
   "wrapper-component#info-card-banner-healthy-four": {
     "props": {
       "schemaName": "Contenedor Banner 4",
       "showComponent": false
     },
-    "children": ["info-card-render#home-healthy"]
+    "children": ["info-card-render#home-healthy-one"]
   },
   "wrapper-component#info-card-banner-healthy-five": {
     "props": {
       "schemaName": "Contenedor Banner 5",
       "showComponent": false
     },
-    "children": ["info-card-render#home-healthy"]
+    "children": ["info-card-render#home-healthy-one"]
   }
 }

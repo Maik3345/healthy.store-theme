@@ -32,6 +32,110 @@
           "__editorItemTitle": "Main Carousel",
           "name": "Main Carousel",
           "key": "wrapper-component#main-carousel-healthy-one"
+        },
+
+        {
+          "__editorItemTitle": "Shelf Container 1",
+          "name": "Shelf Container 1",
+          "key": "wrapper-component#shelf-healthy-one"
+        },
+        {
+          "__editorItemTitle": "Shelf Container 2",
+          "name": "Shelf Container 2",
+          "key": "wrapper-component#shelf-healthy-two"
+        },
+        {
+          "__editorItemTitle": "Shelf Container 3",
+          "name": "Shelf Container 3",
+          "key": "wrapper-component#shelf-healthy-three"
+        },
+        {
+          "__editorItemTitle": "Shelf Container 4",
+          "name": "Shelf Container 4",
+          "key": "wrapper-component#shelf-healthy-four"
+        },
+        {
+          "__editorItemTitle": "Shelf Container 5",
+          "name": "Shelf Container 5",
+          "key": "wrapper-component#shelf-healthy-five"
+        },
+
+        {
+          "__editorItemTitle": "Department Grid 1",
+          "name": "Department Grid 1",
+          "key": "wrapper-component#department-grid-one"
+        },
+        {
+          "__editorItemTitle": "Department Grid 2",
+          "name": "Department Grid 2",
+          "key": "wrapper-component#department-grid-two"
+        },
+        {
+          "__editorItemTitle": "Department Grid 3",
+          "name": "Department Grid 3",
+          "key": "wrapper-component#department-grid-three"
+        },
+        {
+          "__editorItemTitle": "Department Grid 4",
+          "name": "Department Grid 4",
+          "key": "wrapper-component#department-grid-four"
+        },
+        {
+          "__editorItemTitle": "Department Grid 5",
+          "name": "Department Grid 5",
+          "key": "wrapper-component#department-grid-five"
+        },
+
+        {
+          "__editorItemTitle": "Featured Grid 1",
+          "name": "Featured Grid 1",
+          "key": "wrapper-component#featured-carousel-one"
+        },
+        {
+          "__editorItemTitle": "Featured Grid 2",
+          "name": "Featured Grid 2",
+          "key": "wrapper-component#featured-carousel-two"
+        },
+        {
+          "__editorItemTitle": "Featured Grid 3",
+          "name": "Featured Grid 3",
+          "key": "wrapper-component#featured-carousel-three"
+        },
+        {
+          "__editorItemTitle": "Featured Grid 4",
+          "name": "Featured Grid 4",
+          "key": "wrapper-component#featured-carousel-four"
+        },
+        {
+          "__editorItemTitle": "Featured Grid 5",
+          "name": "Featured Grid 5",
+          "key": "wrapper-component#featured-carousel-five"
+        },
+
+        {
+          "__editorItemTitle": "Marks Carousel 1",
+          "name": "Marks Carousel 1",
+          "key": "wrapper-component#marks-carousel-one"
+        },
+        {
+          "__editorItemTitle": "Marks Carousel 2",
+          "name": "Marks Carousel 2",
+          "key": "wrapper-component#marks-carousel-two"
+        },
+        {
+          "__editorItemTitle": "Marks Carousel 3",
+          "name": "Marks Carousel 3",
+          "key": "wrapper-component#marks-carousel-three"
+        },
+        {
+          "__editorItemTitle": "Marks Carousel 4",
+          "name": "Marks Carousel 4",
+          "key": "wrapper-component#marks-carousel-four"
+        },
+        {
+          "__editorItemTitle": "Marks Carousel 5",
+          "name": "Marks Carousel 5",
+          "key": "wrapper-component#marks-carousel-five"
         }
       ],
       "componentsList": [
@@ -40,12 +144,32 @@
           "__editorItemTitle": "Main Carousel"
         },
         {
-          "key": "wrapper-component#box-featured-healthy-one",
-          "__editorItemTitle": "Department List 1"
+          "key": "wrapper-component#department-grid-one",
+          "__editorItemTitle": "Department Grid 1"
         },
         {
           "key": "wrapper-component#info-card-banner-healthy-one",
           "__editorItemTitle": "Info Card One"
+        },
+        {
+          "key": "wrapper-component#shelf-healthy-one",
+          "__editorItemTitle": "Shelf Container 1"
+        },
+        {
+          "key": "wrapper-component#featured-carousel-one",
+          "__editorItemTitle": "Featured Carousel One"
+        },
+        {
+          "key": "wrapper-component#info-card-banner-healthy-two",
+          "__editorItemTitle": "Info Card Two"
+        },
+        {
+          "key": "wrapper-component#shelf-healthy-two",
+          "__editorItemTitle": "Shelf Container 2"
+        },
+        {
+          "key": "wrapper-component#marks-carousel-one",
+          "__editorItemTitle": "Marks Carousel 1"
         }
       ]
     },
@@ -62,7 +186,31 @@
       "wrapper-component#box-featured-healthy-four",
       "wrapper-component#box-featured-healthy-five",
 
-      "wrapper-component#main-carousel-healthy-one"
+      "wrapper-component#main-carousel-healthy-one",
+
+      "wrapper-component#shelf-healthy-one",
+      "wrapper-component#shelf-healthy-two",
+      "wrapper-component#shelf-healthy-three",
+      "wrapper-component#shelf-healthy-four",
+      "wrapper-component#shelf-healthy-five",
+
+      "wrapper-component#department-grid-one",
+      "wrapper-component#department-grid-two",
+      "wrapper-component#department-grid-three",
+      "wrapper-component#department-grid-four",
+      "wrapper-component#department-grid-five",
+
+      "wrapper-component#featured-carousel-one",
+      "wrapper-component#featured-carousel-two",
+      "wrapper-component#featured-carousel-three",
+      "wrapper-component#featured-carousel-four",
+      "wrapper-component#featured-carousel-five",
+
+      "wrapper-component#marks-carousel-one",
+      "wrapper-component#marks-carousel-two",
+      "wrapper-component#marks-carousel-three",
+      "wrapper-component#marks-carousel-four",
+      "wrapper-component#marks-carousel-five"
     ]
   }
 }

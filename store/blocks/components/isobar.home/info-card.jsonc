@@ -1,5 +1,5 @@
 {
-  "info-card-render#home-healthy": {
+  "info-card-render#home-healthy-one": {
     "props": {
       "showComponent": true,
       "schemaName": "Banner FULL",
@@ -9,7 +9,24 @@
       },
       "image": {
         "maxWidth": "1280px",
-        "web": "https://chefcompany.vtexassets.com/assets/vtex.file-manager-graphql/images/bea90c11-c117-4847-ac9c-7ab7e8e3a168___9b16d2ee7f6df2cb6294a86113d1acf1.png",
+        "web": "/assets/vtex.file-manager-graphql/images/175ec56a-3deb-4720-8483-ab6bd994475c___8a776b32cf6949c6d149873ec322b414.png",
+        "mobile": "",
+        "url": "/",
+        "linkTarget": "_self"
+      }
+    }
+  },
+  "info-card-render#home-healthy-two": {
+    "props": {
+      "showComponent": true,
+      "schemaName": "Banner FULL",
+      "margin": {
+        "web": "0 auto",
+        "mobile": "0 auto"
+      },
+      "image": {
+        "maxWidth": "1280px",
+        "web": "/assets/vtex.file-manager-graphql/images/7d57146b-e3dd-4963-875c-de9632221413___0a56e4b9345eb7dba0567d96b1feacb6.png",
         "mobile": "",
         "url": "/",
         "linkTarget": "_self"

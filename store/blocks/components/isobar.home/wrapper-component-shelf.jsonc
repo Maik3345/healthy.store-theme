@@ -1,0 +1,37 @@
+{
+  "wrapper-component#shelf-healthy-one": {
+    "props": {
+      "schemaName": "Shelf Container 1",
+      "showComponent": true
+    },
+    "children": ["flex-layout.row#shelf"]
+  },
+  "wrapper-component#shelf-healthy-two": {
+    "props": {
+      "schemaName": "Shelf Container 2",
+      "showComponent": true
+    },
+    "children": ["flex-layout.row#shelf"]
+  },
+  "wrapper-component#shelf-healthy-three": {
+    "props": {
+      "schemaName": "Shelf Container 3",
+      "showComponent": false
+    },
+    "children": ["flex-layout.row#shelf"]
+  },
+  "wrapper-component#shelf-healthy-four": {
+    "props": {
+      "schemaName": "Shelf Container 4",
+      "showComponent": false
+    },
+    "children": ["flex-layout.row#shelf"]
+  },
+  "wrapper-component#shelf-healthy-five": {
+    "props": {
+      "schemaName": "Shelf Container 5",
+      "showComponent": false
+    },
+    "children": ["flex-layout.row#shelf"]
+  }
+}
