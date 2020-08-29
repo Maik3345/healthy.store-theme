@@ -4,7 +4,8 @@
       "stack-layout#prodsum",
       "product-summary-name",
       "product-summary-space",
-      "add-to-cart-button#shelf"
+      "flex-layout.row#product-prices-and-sku-selector",
+      "with-add-to-cart-manager"
     ]
   },
   "product-summary.shelf#one": {
@@ -14,5 +15,22 @@
       "product-summary-space",
       "add-to-cart-button#shelf"
     ]
+  },
+  "flex-layout.row#product-prices-and-sku-selector": {
+    "children": ["flex-layout.col#product-prices"],
+    "props": {
+      "blockClass": "product-price-and-selector"
+    }
+  },
+  "flex-layout.col#product-prices": {
+    "children": ["product-list-price#summary", "product-selling-price#summary"],
+    "props": {
+      "blockClass": "product-price-healthy"
+    }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "showVariationsLabels": ["false"]
+    }
   }
 }

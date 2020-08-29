@@ -1,5 +1,5 @@
 {
-  "vendor": "healthyamerica",
+  "vendor": "chefcompany",
   "name": "store-theme",
   "version": "1.0.0",
   "builders": {
@@ -60,7 +60,8 @@
     "chefcompany.footer": "0.x",
     "chefcompany.store-utils": "0.x",
     "chefcompany.newsletter": "0.x",
-    "chefcompany.category-menu": "0.x"
+    "chefcompany.category-menu": "0.x",
+    "chefcompany.product-details": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

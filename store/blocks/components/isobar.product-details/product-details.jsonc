@@ -1,0 +1,18 @@
+{
+  "with-add-to-cart-manager": {
+    "children": [
+      "isobar-buy-button-default",
+      "isobar-quantity-selector-default"
+    ]
+  },
+  "isobar-buy-button-default": {
+    "props": {
+      "buttonText": "Agregar al carrito"
+    }
+  },
+  "isobar-quantity-selector-default": {
+    "props": {
+      "quantityLabel": "{quantity} UND"
+    }
+  }
+}

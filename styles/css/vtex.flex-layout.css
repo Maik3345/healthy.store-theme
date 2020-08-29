@@ -12,6 +12,9 @@
 .flexRow--main-header {
   max-width: 1280px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .flexRowContent--menu-link,
@@ -35,10 +38,6 @@
 .flexRowContent--menu-link {
   background-color: #03044e;
   color: #fff;
-}
-
-.flexRowContent--main-header {
-  background-color: #f0f0f0;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -154,4 +153,26 @@
   padding-left: 0px;
   color: #3c3c3c;
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*Shelf*/
+
+.flexRowContent--shelf-home {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexRow--shelf-home {
+  background: #f8f8f8;
+  padding: 100px 0px;
+}
+
+.flexCol--product-price-healthy {
+  padding: 10px;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: center;
 }

@@ -1,4 +1,5 @@
-.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround,
+.skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
 
@@ -14,19 +15,13 @@
 @media screen and (max-width: 40em) {
   .container :global(.vtex-modal-layout-0-x-triggerContainer) {
     display: none;
-  } 
-}
-
-.nameContainer {
-  justify-content: start;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  }
 }
 
 .brandName {
   font-weight: 600;
-  font-size: 18px;
-  color: #2E2E2E;
+  font-size: 22px;
+  color: #2e2e2e;
 }
 
 .container {
@@ -39,4 +34,86 @@
 
 .image {
   border-radius: 0.25rem;
+}
+
+.container {
+  overflow: hidden;
+  max-width: 250px;
+  padding: 10px;
+  background: white;
+  margin: 0 10px;
+  border-radius: 1px;
+  position: relative;
+  box-shadow: 0px 2px 6px rgb(57 57 57 / 17%);
+}
+
+.element {
+  padding: 0;
+}
+
+.nameContainer {
+  justify-content: center;
+  padding: 10px 20px 0;
+}
+
+.skuSelectorContainer {
+  margin: 0 !important;
+  padding: 0 20px 0 10px;
+}
+
+.skuSelectorSubcontainer {
+  margin-bottom: 10px;
+}
+
+.productBrand {
+  color: #3c3c3c;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+@media (max-width: 600px) {
+  .image {
+    height: 120px !important;
+  }
+
+  .productBrand {
+    font-size: 14px;
+  }
+}
+
+.skuSelectorContainer
+  :global(.vtex-store-components-3-x-skuSelectorTextContainer) {
+  display: none;
+}
+
+.skuSelectorContainer
+  :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.skuSelectorContainer :global(.vtex-store-components-3-x-skuSelectorItemImage) {
+  width: 30px !important;
+  height: 30px !important;
+  margin: 0 5px;
+}
+
+.skuSelectorContainer
+  :global(.vtex-store-components-3-x-skuSelectorSubcontainer) {
+  margin: 0;
+}
+
+.skuSelectorInternalBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skuSelectorItemImageValue {
+  max-width: initial;
+  height: 100%;
 }

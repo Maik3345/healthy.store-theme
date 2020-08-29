@@ -20,14 +20,14 @@
     "children": [
       "flex-layout.col#category-menu",
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar#header",
+      "flex-layout.col#search-bar",
       "flex-layout.col#login",
       "minicart.v2"
     ]
   },
   "flex-layout.col#category-menu": {
     "props": {
+      "width": "20%",
       "horizontalAlign": "center",
       "verticalAlign": "middle"
     },

@@ -31,7 +31,8 @@
     },
     "children": [
       "wrapper-component#main-carousel-with-banner",
-      "wrapper-component#main-carousel-only"
+      "wrapper-component#main-carousel-only",
+      "flex-layout.row#promises"
     ]
   },
   "wrapper-component#main-carousel-healthy-two": {

@@ -2,7 +2,7 @@
   "search-bar#header": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "placeholder": "Encuentra el producto que tanto quieres",
+       "placeholder": "¿Qué estás buscando?",
       "openAutocompleteOnFocus": true,
       "maxWidth": "630px",
       "autoFocus": false,

@@ -56,8 +56,12 @@
   font-size: 14px;
 }
 
-
 .withLoginContainer--icon-mobile {
   margin: 0 0 0 20px;
   color: #707070;
+}
+
+.vtexIcon--vtex-minusIcon .vtexIconSvg,
+.vtexIcon--vtex-plusIcon .vtexIconSvg {
+  width: 10px;
 }

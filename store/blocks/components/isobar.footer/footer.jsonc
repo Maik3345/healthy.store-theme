@@ -14,82 +14,156 @@
         "hideWhenIsMobile": true,
         "links": [
           {
-            "icon": { "size": 0 },
-            "linksItems": [
-              {
-                "icon": { "size": 0 },
-                "seo": {},
-                "text": "Preguntas frecuentes"
-              },
-              { "icon": { "size": 0 }, "seo": {}, "text": "Dia sin IVA" },
-              { "icon": { "size": 0 }, "seo": {}, "text": "Sobre nosotros" }
-            ],
-            "title": "Centro de ayuda"
-          },
-          {
-            "title": "Tienda Celsia",
-            "icon": { "size": 0 },
-            "linksItems": [
-              {
-                "icon": { "size": 0 },
-                "seo": { "class": "", "id": "" },
-                "text": "Electrónica y tecnología",
-                "url": "/"
-              },
-              {
-                "icon": { "size": 0 },
-                "seo": {},
-                "text": "Electrodomésticos",
-                "url": "/"
-              },
-              {
-                "icon": { "size": 0 },
-                "seo": {},
-                "text": "Iluminación",
-                "url": "/"
-              },
-              { "icon": { "size": 0 }, "seo": {}, "text": "Ofertas" }
-            ]
-          },
-          {
-            "icon": { "size": 0 },
-            "linksItems": [
-              { "icon": { "size": 0 }, "seo": {}, "text": "Fundación" },
-              { "icon": { "size": 0 }, "seo": {}, "text": "Proveedores" },
-              { "icon": { "size": 0 }, "seo": {}, "text": "Sostenibilidad" }
-            ],
-            "title": "Quiénes somos"
-          },
-          {
-            "title": "Redes sociales",
             "icon": null,
             "linksItems": [
               {
-                "icon": { "id": "hpa-profile", "size": 20 },
+                "icon": null,
                 "seo": { "class": "", "id": "" },
-                "text": "Facebook",
+                "text": "Destacados"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "url": "/",
+                "text": "Vitaminas & Suplementos"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "url": "/",
+                "text": "Proteínas & Fitness"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "url": "/",
+                "text": "Rendimiento"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "url": "/",
+                "text": "Control de Peso"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "url": "/",
+                "text": "Belleza"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "url": "/",
+                "text": "Salud Integral"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "url": "/",
+                "text": "Marcas"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "url": "/",
+                "text": "Promociones"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "url": "/",
+                "text": "Blog"
+              }
+            ],
+            "title": "Departamentos"
+          },
+          {
+            "title": "Información",
+            "icon": null,
+            "linksItems": [
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "text": "Contáctanos",
+                "url": "/"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "text": "Quiénes somos",
+                "url": "/"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "text": "Quiero ser distribuidor",
+                "url": "/"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "text": "Términos y condiciones"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "url": "/",
+                "text": "Política de tratamiento de datos personales"
+              }
+            ]
+          },
+          {
+            "icon": null,
+            "linksItems": [
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "text": "Mis compras"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "text": "Mis créditos"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "text": "Mis direcciones"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "text": "Mi información personal"
+              },
+              {
+                "icon": null,
+                "seo": { "class": "", "id": "" },
+                "text": "Mis cupones"
+              }
+            ],
+            "title": "Cuenta"
+          },
+          {
+            "title": "Contácto",
+            "icon": null,
+            "linksItems": [
+              {
+                "icon": { "id": "hpa-profile", "size": 24 },
+                "seo": { "class": "", "id": "" },
+                "text": "Carrera 37 # 13-186 Acopi Yumbo, Colombia",
                 "url": "/"
               },
               {
                 "icon": { "id": "hpa-profile", "size": 24 },
                 "seo": { "class": "", "id": "" },
-                "text": "Twitter",
+                "text": "+57 (2) 386 58 80",
                 "url": "/"
               },
               {
                 "icon": { "size": 24, "id": "hpa-profile" },
-                "seo": {},
-                "text": "Instagram"
-              },
-              {
-                "icon": { "size": 24, "id": "hpa-profile" },
-                "seo": {},
-                "text": "Youtube"
-              },
-              {
-                "icon": { "size": 25, "id": "hpa-profile" },
-                "seo": {},
-                "text": "Likedin"
+                "seo": { "class": "", "id": "" },
+                "text": "contacto@healthy-america.com.co"
               }
             ]
           }
@@ -98,12 +172,12 @@
       "logo": {
         "show": true,
         "text": {
-          "title": "Línea de atención al cliente",
-          "message": "018000 112 115"
+          "title": "",
+          "message": ""
         },
         "image": {
           "alt": "",
-          "logoUrl": "/assets/vtex.file-manager-graphql/images/2e6826c4-bcc0-48de-ba74-13b0e3f20a7f__8e598586e90e583aa5df11ab98bdcf9c.svg",
+          "logoUrl": "/assets/vtex.file-manager-graphql/images/9cf15332-012c-40cf-82ea-20ce8fdf4b1a___3086851c4698aa6f3deea4e5f867e8a8.png",
           "url": "/",
           "height": { "mobile": "65px", "web": "65px" },
           "width": { "mobile": "160px", "web": "230px" }
@@ -111,23 +185,23 @@
       },
       "information": { "show": true },
       "social": {
-        "show": false,
+        "show": true,
         "icons": [
           {
             "id": "hpa-profile",
-            "size": 20,
+            "size": 30,
             "url": "",
             "seo": { "id": "", "class": "" }
           },
           {
             "id": "hpa-profile",
-            "size": 20,
+            "size": 30,
             "url": "",
             "seo": { "id": "", "class": "" }
           },
           {
             "id": "hpa-profile",
-            "size": 20,
+            "size": 30,
             "url": "",
             "seo": { "id": "", "class": "" }
           }
@@ -154,6 +228,9 @@
     }
   },
   "flex-layout.row#newsletter": {
+    "props": {
+      "fullWidth": true
+    },
     "children": ["chef-newsletter"]
   }
 }

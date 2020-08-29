@@ -1,0 +1,29 @@
+{
+  "chef-promise": {
+    "props": {
+      "lineHeight": "80px",
+      "mode": "line",
+      "promiseList": [
+        {
+          "icon": "https://dummyimage.com/50x50/cfc9cf/fff",
+          "title": "Envío gratis"
+        },
+        {
+          "icon": "https://dummyimage.com/50x50/cfc9cf/fff",
+          "title": "Envío a Toda Colombia"
+        },
+        {
+          "icon": "https://dummyimage.com/50x50/cfc9cf/fff",
+          "title": "Asesoría gratis"
+        },
+        {
+          "icon": "https://dummyimage.com/50x50/cfc9cf/fff",
+          "title": "Promociones Exclusivas"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#promises": {
+    "children": ["chef-promise"]
+  }
+}

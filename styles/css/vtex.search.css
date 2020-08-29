@@ -1,0 +1,136 @@
+.biggy-autocomplete {
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  top: 5px;
+}
+
+.tileListItem :global(.vtex-product-summary-2-x-container) {
+  margin: 0 10px;
+}
+
+.itemListTitle,
+.tileListTitle {
+  text-transform: unset;
+  color: #222222;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 20px;
+}
+
+.itemListPrefix {
+  display: none;
+}
+
+.itemListIcon {
+  color: #a0a0a0 !important;
+}
+
+/* .itemListItem > a > span {
+  color: #222222;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+} */
+
+.tileListSeeMore {
+  font-weight: 600;
+  font-size: 14px;
+  color: #222222;
+}
+
+.close-btn {
+  display: none;
+}
+
+.didYouMeanPrefix,
+.didYouMeanTerm {
+  font-size: 1.15rem;
+}
+/* .suggestionsListPrefix,
+.suggestionsList li a {
+  font-size: 0.85rem;
+} */
+
+.suggestionsListPrefix,
+.suggestionsList {
+  margin-bottom: 10px;
+}
+
+/* .didYouMeanTerm a,
+.suggestionsList li a {
+  color: #f97b00;
+} */
+
+.suggestionsListItem {
+  display: inherit;
+}
+
+/* .suggestionsList li:not(:first-child):before {
+  display: flex;
+  align-items: center;
+} */
+
+@media (min-width: 960px) {
+  .tileList {
+    flex: 2.5;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 960px) {
+  .biggy-autocomplete {
+    transition-delay: 0s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #ccc;
+  }
+
+  .biggy-autocomplete:not(.biggy-js-container--hidden) {
+    transition-delay: 0.2s;
+  }
+
+  .itemListTitle {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .tileListTitle {
+    margin: 20px 0;
+  }
+
+  /* .tileList ul {
+    padding: 0 10px;
+  } */
+
+  .itemList--suggestion {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .priceContainer {
+    display: none;
+  }
+
+  .close-btn {
+    cursor: pointer;
+    display: block;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 640px) {
+  .itemList {
+    overflow: unset;
+  }
+
+  .biggy-autocomplete:not(.biggy-js-container--hidden) {
+    max-height: 40vh;
+  }
+
+  .didYouMeanPrefix {
+    margin-left: 14px;
+  }
+}

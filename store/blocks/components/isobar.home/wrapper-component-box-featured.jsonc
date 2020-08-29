@@ -2,7 +2,7 @@
   "wrapper-component#box-featured-healthy-one": {
     "props": {
       "schemaName": "Departments List 1",
-      "showComponent": true
+      "showComponent": false
     },
     "children": ["box-featured#home-healthy"]
   },

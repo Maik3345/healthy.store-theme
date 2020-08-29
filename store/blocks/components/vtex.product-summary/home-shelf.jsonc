@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#shelf": {
+    "props": {
+      "blockClass": "shelf-home",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#rich-shelf-title",
+      "list-context.product-list#demo1"
+    ]
+  },
+  "flex-layout.row#rich-shelf-title": {
+    "children": ["rich-text#rich-shelf-title"]
+  },
+  "rich-text#rich-shelf-title": {
+    "props": {
+      "text": "NUEVOS PRODUCTOS PARA TI",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "rich-shelf-title"
+    }
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-home"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#shelf-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-carousel"
+    }
+  }
+}

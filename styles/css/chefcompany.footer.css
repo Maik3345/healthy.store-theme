@@ -1,3 +1,81 @@
+.footerContainer {
+  padding-top: 0;
+  border: none;
+}
+
 .footerRowLogoAndColumns {
   max-width: 1330px;
+}
+
+.collapsibleTitle {
+  color: #08428f;
+  font-size: 24px;
+}
+
+.collapsibleLinksText {
+  color: #969696;
+  font-size: 14px;
+}
+
+.footerRowSocialAndInfo {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerSiteInformationContainer {
+  border: 2px solid #e3e3e3;
+  border-radius: 0 10px 10px 0;
+  height: 47px;
+}
+
+.socialIconsItem {
+  border-right: solid 2px #e3e3e3;
+  padding: 9px 13px;
+}
+.socialIconsContainer {
+  border: solid 2px #e3e3e3;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+  height: 47px;
+}
+
+.logoContainerMobile {
+  display: none;
+}
+
+.footerRowMobile {
+  margin-top: 20px;
+}
+
+.footerSocialNetworkContainerMobile {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.footerSocialNetworkContainerMobile .socialIconsContainer {
+  border: solid 2px #e3e3e3;
+  border-radius: 10px 10px 0 0;
+  height: 47px;
+  justify-content: center;
+}
+
+.footerSocialNetworkContainerMobile .socialIconsContainer .socialIconsItem {
+  padding: 9px 34px;
+}
+
+.footerSiteInformationContainerMobile {
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+  height: auto;
+}
+
+@media (min-width: 600px) {
+  .footerContainer {
+    padding-top: 60px;
+  }
 }
