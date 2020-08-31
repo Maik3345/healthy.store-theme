@@ -20,10 +20,7 @@
     "children": ["minicart-summary", "minicart-checkout-button"]
   },
   "minicart-product-list": {
-    "blocks": ["product-list#minicart"]
-  },
-  "product-list#minicart": {
-    "blocks": ["product-list-content-mobile"]
+    "blocks": ["product-list#minicart-custom"]
   },
   "minicart-summary": {
     "blocks": ["checkout-summary.compact#minicart"]

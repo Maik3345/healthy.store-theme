@@ -3,7 +3,7 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#logo-mobile", "flex-layout.row#1-mobile"]
+    "children": ["flex-layout.row#logo-mobile", "flex-layout.row#header-mobile"]
   },
   "flex-layout.row#logo-mobile": {
     "children": ["logo#mobile"],
@@ -16,38 +16,47 @@
       "verticalAlign": "middle"
     }
   },
-  "flex-layout.row#1-mobile": {
+  "flex-layout.row#header-mobile": {
     "children": [
-      "category-menu-list",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#category-menu-mobile",
+      "flex-layout.col#search-bar-mobile",
+      "flex-layout.col#login-mobile",
+      "flex-layout.col#minicart-mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preserveLayoutOnMobile": true
     }
   },
-
-  "menu#drawer": {
-    "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
-    ],
+  "flex-layout.col#login-mobile": {
     "props": {
-      "orientation": "vertical"
+      "verticalAlign": "middle",
+      "blockClass": "login-container-mobile",
+      "width": "10%"
+    },
+    "children": ["login#header-mobile"]
+  },
+  "flex-layout.col#minicart-mobile": {
+    "children": ["minicart.v2"],
+    "props": {
+      "width": "10%",
+      "blockClass": "minicart-mobile"
     }
   },
-
+  "flex-layout.col#category-menu-mobile": {
+    "props": {
+      "width": "15%",
+      "horizontalAlign": "right",
+      "verticalAlign": "middle"
+    },
+    "children": ["category-menu-list"]
+  },
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://chefcompany.vtexassets.com/assets/vtex.file-manager-graphql/images/f13c1197-cb83-49a7-be11-f3a49fbd2e30___45f120aebbaa697626c4c1a48f653f8b.png",
-      "width": "150"
+      "url": "/assets/vtex.file-manager-graphql/images/a6160655-4f55-4bc9-be38-6b8ae0095790___0af78c2a0ba783c1c66bfed876a21d21.svg",
+      "width": "200"
     }
   }
 }

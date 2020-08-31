@@ -1,6 +1,9 @@
 /* Logo Container */
 .flexRowContent--main-header-logo-mobile {
   background: #fafbfb;
+  height: 35px;
+  display: flex;
+  align-items: center;
 }
 .flexRowContent--main-header-mobile {
   align-items: center;
@@ -175,4 +178,56 @@
   flex-direction: row-reverse;
   align-items: flex-start;
   justify-content: center;
+}
+
+.flexColChild--login-container-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.flexColChild--search-bar-row-mobile {
+  padding-left: 10px;
+}
+
+.flexCol--minicart-mobile :global(.vtex-button__label) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.flexColChild--login-container-mobile :global(.vtex-button__label) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*Search Result*/
+.flexCol--vtex-search-result-row {
+  position: relative;
+}
+.flexCol--vtex-search-result-row::before {
+  content: "";
+  width: 100%;
+  top: calc(50%);
+  left: 6%;
+  height: 6px;
+  position: absolute;
+  background: #b1b1b1;
+}
+
+.flexRowContent--vtex-title-container .stretchChildrenWidth:first-child {
+  width: auto !important;
+}
+
+.flexColChild--vtex-search-result-title
+  :global(.vtex-search-result-3-x-galleryTitle--layout) {
+  color: #3c3c3c;
+  font-size: 50px;
+}
+.flexRow--vtex-title-container {
+  overflow: hidden;
+}
+.flexRow--searchInfo-container {
+  border-bottom: solid 3px #f0f0f0;
+  margin-bottom: 30px;
 }

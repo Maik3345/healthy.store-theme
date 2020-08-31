@@ -1,0 +1,23 @@
+.homeLink::before {
+  content: "Inicio";
+  padding: 0;
+}
+
+.homeLink .homeIcon {
+  display: none;
+}
+
+.link {
+  font-size: 14px;
+  color: #707372;
+}
+
+.container .arrow:last-child .link,
+.term {
+  color: #ed1c24 !important;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px 0;
+}

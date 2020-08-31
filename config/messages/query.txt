@@ -1,0 +1,17 @@
+mutation Save($save: SaveArgsV2!){
+  saveV2(args: $save)
+}
+
+{
+ "save": {
+   "to": "es-CO",
+   "messages": [
+     {
+       "srcLang": "en-DV",
+       "srcMessage": "store/search.total-products",
+       "targetMessage": "{recordsFiltered} <span class=\"c-muted-2\">{recordsFiltered, plural, one {Resultado} other {Resultados}}</span>",
+       "context": "vtex.search-result@3.x"
+     }
+   ]
+ }
+}

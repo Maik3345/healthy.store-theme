@@ -1,0 +1,13 @@
+{
+  "save": {
+    "to": "es-CO",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/minicart.go-to-checkout",
+        "targetMessage": "Continuar compra",
+        "context": "vtex.minicart@2.x"
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "search-bar#header": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-       "placeholder": "¿Qué estás buscando?",
+      "placeholder": "¿Qué estás buscando?",
       "openAutocompleteOnFocus": true,
       "maxWidth": "630px",
       "autoFocus": false,
@@ -12,6 +12,14 @@
   "flex-layout.col#search-bar": {
     "props": {
       "blockClass": "search-bar-row",
+      "verticalAlign": "middle",
+      "width": "grow"
+    },
+    "children": ["search-bar#header"]
+  },
+  "flex-layout.col#search-bar-mobile": {
+    "props": {
+      "blockClass": "search-bar-row-mobile",
       "verticalAlign": "middle",
       "width": "grow"
     },

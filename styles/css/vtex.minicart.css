@@ -49,3 +49,81 @@
   border-radius: 50%;
   border: 4px double #033980;
 }
+
+.minicartTitle {
+  text-transform: uppercase;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productBrandName) {
+  display: none;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productName) {
+  color: #3c3c3c;
+  font-weight: bold;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-removeButton) {
+  outline: none;
+}
+
+.minicartProductListContainer
+  :global(.vtex-product-list-0-x-removeButtonContainer) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.minicartProductListContainer :global(.vtex__icon-delete) {
+  color: #cccccc;
+  fill: #cccccc;
+}
+
+.minicartProductListContainer :global(.vtex-dropdown__container) {
+  border-color: #ed1c24;
+}
+.minicartProductListContainer :global(.vtex-dropdown__button) {
+  color: #ed1c24;
+}
+
+.minicartProductListContainer :global(.vtex-dropdown__arrow) {
+  color: #ed1c24;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-price) {
+  color: #0a0a0a;
+  font-weight: bold;
+  font-size: 14px;
+  color: #0a0a0a;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallContent)
+  :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+:global(.vtex-checkout-summary-0-x-summarySmallContent)
+  :global(.vtex-checkout-summary-0-x-price) {
+  font-weight: 600;
+  color: #0a0a0a;
+  font-size: 14px;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallContent)
+  :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child
+  :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+:global(.vtex-checkout-summary-0-x-summarySmallContent)
+  :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child
+  :global(.vtex-checkout-summary-0-x-price) {
+  font-weight: 600;
+  color: #0a0a0a;
+  font-size: 18px;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  color: #767676;
+  margin: 0 0 10px 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  color: #fff;
+  background: #ed1c24;
+  border-color: #ed1c24;
+  outline: none;
+}

@@ -1,0 +1,48 @@
+.orderByButton {
+  background: #ffffff;
+  border: 1px solid #f8f8f8;
+  box-shadow: 0px 10px 40px rgba(8, 66, 143, 0.133);
+  height: 30px;
+  margin: 10px 0;
+}
+
+.filterPopupTitle {
+  color: #ed1c24;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.orderByText {
+  color: #000000;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.caretIcon {
+  color: #ed1c24;
+}
+.orderByOptionItem {
+  min-width: 180px;
+  font-size: 14px;
+}
+
+.orderByOptionItem--selected {
+  color: #ed1c24;
+  font-weight: bold;
+  background: none;
+  position: relative;
+}
+
+.orderByOptionItem--selected::before {
+  content: "";
+  color: #ed1c24;
+  position: absolute;
+  right: 20px;
+  width: 14px;
+  height: 8px;
+  border-bottom: solid 2px currentColor;
+  border-left: solid 2px currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}

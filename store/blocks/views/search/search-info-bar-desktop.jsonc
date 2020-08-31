@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#searchinfo": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "searchInfo-container"
+    },
+    "children": ["flex-layout.col#productCount", "flex-layout.col#orderby"]
+  },
+  "flex-layout.col#productCount": {
+    "children": ["isobar-total-products#search-result"],
+    "props": {
+      "blockClass": "productCountCol",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#orderby": {
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "orderByCol"
+    }
+  }
+}

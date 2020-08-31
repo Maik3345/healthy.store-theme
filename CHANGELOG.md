@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.2.0] - 2020-08-29
+
+### Added
+
+- Configure styles for minicart
+- Update styles for header in mobile
+- Add folder config with the text edited from the app message in vtex
+
+## [1.1.0] - 2020-08-28
+
+### Added
+
+- Add all components in Render Wrapper six
+
 ## [1.0.0] - 2020-08-15
 
 ### Added
