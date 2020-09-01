@@ -46,3 +46,60 @@
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
+.filter__container--title {
+  display: none;
+}
+
+.filterAvailable {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px rgba(70, 70, 70, 0.078);
+  border: 1px solid #f8f8f8;
+  border-radius: 1px;
+  padding: 15px 21px;
+}
+.filter__container {
+  margin-bottom: 20px;
+  border: none;
+}
+.filterTemplateOverflow {
+  background: #ededed 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px rgba(70, 70, 70, 0.078);
+  border: 1px solid #f8f8f8;
+  border-radius: 1px;
+  padding: 15px 21px;
+  max-height: 300px !important;
+}
+
+.filterAvailable:first-child {
+  outline: none;
+}
+
+.filterAvailable .filterTitle {
+  outline: none;
+  color: #3c3c3c;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.filterItem :global(.vtex-checkbox__line-container) {
+  align-items: center;
+}
+
+.filterItem :global(.vtex-checkbox__container) {
+  margin: 10px 15px 10px 0;
+}
+
+.filterItem :global(.vtex-checkbox__label) {
+  font-size: 15px;
+}
+
+.buttonShowMore :global(.vtex-button) {
+  width: 320px;
+  height: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: none;
+  color: #3c3c3c;
+  border: solid 1px #3c3c3c;
+}

@@ -1,7 +1,9 @@
 {
   "isobar-total-products#search-result": {
     "props": {
-      "prevMessage": "Mostrando"
+      "from": "Mostrando",
+      "of": "de",
+      "to": "resultados"
     }
   }
 }
