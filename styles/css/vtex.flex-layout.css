@@ -189,6 +189,10 @@
 
 .flexColChild--search-bar-row-mobile {
   padding-left: 10px;
+  padding-right: 10px;
+}
+.flexColChild--search-bar-row-mobile :global(.vtex-styleguide-9-x-input) {
+  font-size: 13px;
 }
 
 .flexCol--minicart-mobile :global(.vtex-button__label) {
@@ -202,10 +206,10 @@
 }
 
 /*Search Result*/
-.flexCol--vtex-search-result-row {
+.flexRowContent--vtex-title-container {
   position: relative;
 }
-.flexCol--vtex-search-result-row::before {
+.flexRowContent--vtex-title-container::before {
   content: "";
   width: 100%;
   top: calc(50%);
@@ -222,12 +226,31 @@
 .flexColChild--vtex-search-result-title
   :global(.vtex-search-result-3-x-galleryTitle--layout) {
   color: #3c3c3c;
-  font-size: 50px;
+  font-size: 30px;
+  width: auto;
+  background: white;
+  z-index: 2;
+  position: relative;
+  padding-right: 30px;
+  max-width: 245px;
 }
+
+@media (min-width: 600px) {
+  .flexColChild--vtex-search-result-title
+    :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    font-size: 50px;
+    max-width: 400px;
+  }
+}
+
 .flexRow--vtex-title-container {
   overflow: hidden;
 }
 .flexRow--searchInfo-container {
   border-bottom: solid 3px #f0f0f0;
   margin-bottom: 30px;
+}
+
+.flexRow--search-fetch-previous-mobile {
+  border-top: 2px solid #f0f0f0;
 }
