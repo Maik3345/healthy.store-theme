@@ -4,13 +4,13 @@
       "marginTop": 4,
       "blockClass": "breadcrumb-desktop"
     },
-    "children": ["breadcrumb"]
+    "children": ["site-breadcrumb#product"]
   },
   "flex-layout.row#product-breadcrumb-mobile": {
     "props": {
       "marginTop": 4,
       "blockClass": "breadcrumb-mobile"
     },
-    "children": ["breadcrumb-mobile"]
+    "children": ["site-breadcrumb#product"]
   }
 }

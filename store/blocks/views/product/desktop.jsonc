@@ -1,0 +1,13 @@
+{
+  "render-on-resolution#desktop": {
+    "props": {
+      "resolution": ["md", "lg", "xl"]
+    },
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "isobar-tabs-description",
+      "shelf.relatedProducts"
+    ]
+  }
+}

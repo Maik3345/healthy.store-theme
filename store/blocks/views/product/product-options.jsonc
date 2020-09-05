@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#product-options": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "product-options"
+    },
+    "children": [
+      "flex-layout.row#product-quantity",
+      "sku-selector",
+      "product-assembly-options",
+      "flex-layout.row#buy-button"
+    ]
+  }
+}

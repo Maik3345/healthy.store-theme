@@ -3,7 +3,14 @@
     "children": ["flex-layout.col#product-selling-price"],
     "props": {
       "preventHorizontalStretch": true,
-      "blockClass": "product-detais-price"
+      "blockClass": "product-details-price"
+    }
+  },
+  "flex-layout.row#details-price-container-mobile": {
+    "children": ["flex-layout.col#product-selling-price"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "product-details-price-mobile"
     }
   },
   "flex-layout.col#product-list-price": {

@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#searchbread": {
+    "children": ["site-breadcrumb#search"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "marginTop": 6,
+      "marginBottom": 1
+    }
+  }
+}

@@ -3,14 +3,9 @@
     "props": {
       "blockClass": "productDetail"
     },
-    "children": [
-      "flex-layout.row#product-breadcrumb",
-      "flex-layout.row#product-breadcrumb-mobile",
-      "flex-layout.row#product-main",
-      "isobar-tabs-description",
-      "shelf.relatedProducts"
-    ]
+    "children": ["render-on-resolution#desktop", "render-on-resolution#mobile"]
   },
+
   "flex-layout.row#description": {
     "props": {
       "marginBottom": 7
@@ -82,12 +77,9 @@
       "flex-layout.row#details-price-container",
       "flex-layout.row#product-specification",
       "flex-layout.row#short-description",
-      "sku-selector",
-      "product-assembly-options",
       "product-gifts",
       "availability-subscriber",
-      "flex-layout.row#product-quantity",
-      "flex-layout.row#buy-button",
+      "flex-layout.row#product-options",
       "share#default"
 
       // "product-rating-summary",
