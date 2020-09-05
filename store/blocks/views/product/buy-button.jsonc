@@ -1,0 +1,8 @@
+{
+  "flex-layout.row#details-buy-button": {
+    "children": ["with-add-to-cart-manager"],
+    "props": {
+      "blockClass": "product-buy-button"
+    }
+  }
+}

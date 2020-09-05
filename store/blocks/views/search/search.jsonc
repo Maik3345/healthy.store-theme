@@ -7,15 +7,6 @@
     ]
   },
 
-  //Breadcrumb
-  "flex-layout.row#searchbread": {
-    "children": ["breadcrumb.search"],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-
   // Info Bar With title of the product
 
   "flex-layout.row#searchtitle": {

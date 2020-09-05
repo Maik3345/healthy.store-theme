@@ -1,0 +1,34 @@
+{
+  "site-breadcrumb#product": {
+    "props": {
+      "home": {
+        "name": "Inicio",
+        "href": "/"
+      },
+      "arrowIcon": { "icon": "hpa-arrow-back", "size": 20 }
+    },
+    "children": ["breadcrumb#product"]
+  },
+  "site-breadcrumb#search": {
+    "props": {
+      "home": {
+        "name": "Inicio",
+        "href": "/"
+      },
+      "arrowIcon": { "icon": "hpa-arrow-back", "size": 20 }
+    },
+    "children": ["breadcrumb.search#search"]
+  },
+  "breadcrumb.search#search": {
+    "props": {
+      "homeIconSize": 18,
+      "caretIconSize": 16
+    }
+  },
+  "breadcrumb#product": {
+    "props": {
+      "homeIconSize": 18,
+      "caretIconSize": 16
+    }
+  }
+}

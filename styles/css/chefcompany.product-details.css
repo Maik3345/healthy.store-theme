@@ -116,3 +116,64 @@
 .buyButtonIcon {
   display: none;
 }
+
+.descriptionCollapse {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .containerDescription {
+    display: none;
+  }
+
+  .descriptionCollapse {
+    display: block;
+  }
+}
+
+/* Product Specification */
+:global(.vtex-flex-layout-0-x-flexRow--product-specification)
+  .specificationContainer {
+  flex-direction: column;
+  border-top: 3px solid #f8f8f8;
+  margin: 20px 0 0;
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-specification)
+  .specificationItem {
+  flex-direction: row;
+  width: 100% !important;
+  height: auto;
+  justify-content: flex-start;
+  margin: 20px 0 0;
+  border: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--product-specification)
+  .specificationRipple {
+  display: none !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--product-specification)
+  .specificationLabel {
+  color: #3c3c3c;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  padding-right: 8px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--product-specification)
+  .specificationLabel::before {
+  content: ":";
+  position: absolute;
+  right: 0;
+  top: -1px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--product-specification)
+  .specificationValue {
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 10px;
+}

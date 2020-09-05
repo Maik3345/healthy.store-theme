@@ -254,3 +254,140 @@
 .flexRow--search-fetch-previous-mobile {
   border-top: 2px solid #f0f0f0;
 }
+
+/* Product Details */
+
+.flexRowContent--product-details-price
+  :global(.vtex-product-price-1-x-sellingPriceValue) {
+  font-size: 24px;
+}
+
+.flexRowContent--product-details-price
+  :global(.vtex-product-price-1-x-listPriceValue) {
+  font-size: 24px;
+}
+
+.flexRowContent--product-details-price-mobile
+  :global(.vtex-product-price-1-x-sellingPriceValue) {
+  font-size: 28px;
+}
+
+.flexRowContent--product-details-price-mobile
+  :global(.vtex-product-price-1-x-listPriceValue) {
+  font-size: 28px;
+}
+
+.flexRowContent--product-details-price-mobile {
+  border-bottom: 3px solid #f8f8f8;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.flexRow--short-description
+  :global(.vtex-store-components-3-x-productDescriptionText)
+  :global(.vtex-store-components-3-x-container) {
+  height: 130px;
+}
+
+.flexRow--short-description :global(.vtex-store-components-3-x-showMoreButton) {
+  padding: 10px 45px;
+  font-size: 13px;
+  font-weight: bold;
+  background: white;
+  border: solid 1px #3c3c3c;
+}
+
+.flexRow--short-description
+  :global(.vtex-store-components-3-x-showMoreButton):hover {
+  background: #ed1c24;
+  border: solid 1px #ed1c24;
+  color: #ffffff;
+}
+
+/* Product detail Description */
+.flexRowContent--short-description
+  :global(.vtex-store-components-3-x-productDescriptionTitle) {
+  display: none;
+}
+
+.flexRowContent--short-description {
+  padding: 20px 0;
+  border-bottom: 3px solid #f8f8f8;
+  margin-bottom: 20px;
+}
+
+.flexRowContent--short-description
+  :global(.vtex-store-components-3-x-container) {
+  color: #000000;
+  font-size: 14px;
+}
+
+/* Product Detail Product Quantity*/
+.flexRow--product-quantity
+  :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  align-items: flex-start;
+}
+
+.flexRow--product-quantity-mobile
+  :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.flexRow--product-quantity
+  :global(.vtex-product-quantity-1-x-quantitySelectorStepper),
+.flexRow--product-quantity-mobile
+  :global(.vtex-product-quantity-1-x-quantitySelectorStepper) {
+  border: 1px solid #cccccc;
+}
+
+.flexRow--product-quantity :global(.vtex-numeric-stepper__minus-button),
+.flexRow--product-quantity :global(.vtex-numeric-stepper__plus-button),
+.flexRow--product-quantity :global(.vtex-numeric-stepper__input),
+.flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__minus-button),
+.flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__plus-button),
+.flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__input) {
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  position: relative;
+}
+
+.flexRow--product-quantity :global(.vtex-numeric-stepper__minus-button__text),
+.flexRow--product-quantity :global(.vtex-numeric-stepper__plus-button__text),
+.flexRow--product-quantity-mobile
+  :global(.vtex-numeric-stepper__minus-button__text),
+.flexRow--product-quantity-mobile
+  :global(.vtex-numeric-stepper__plus-button__text) {
+  border-radius: 50%;
+  border: solid 1px #979899;
+  font-weight: bold;
+  opacity: 1;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.flexRowContent--product-options {
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .flexRow--breadcrumb-container {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 25px;
+  }
+}
+
+.flexRow--breadcrumb-mobile {
+  margin-bottom: 15px;
+  margin-top: 17px;
+}

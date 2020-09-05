@@ -1,0 +1,14 @@
+{
+  "isobar-product-description": {
+    "children": ["product-reviews#reviews"]
+  },
+  "isobar-product-description-collapse": {
+    "children": ["product-reviews#reviews"]
+  },
+  "product-reviews#reviews": {
+    "props": {
+      "blockClass": "reviews",
+      "htmlId": "reviews"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "flex-layout.row#short-description": {
+    "props": { "blockClass": "short-description" },
+    "children": ["product-description"]
+  }
+}

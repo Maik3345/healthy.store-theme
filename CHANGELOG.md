@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.3.1] - 2020-09-04
+
+### Fixed
+
+- Fix home design
+- Add new styles for product-detail-page
+- Implement new breadcrumb component
+- Fix styles in search-result page
+
 ## [1.3.0] - 2020-08-31
 
 ### Added

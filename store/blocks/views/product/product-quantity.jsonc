@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#product-quantity": {
+    "props": {
+      "blockClass": "product-quantity"
+    },
+    "children": ["product-quantity#product-detail"]
+  },
+  "flex-layout.row#product-quantity-mobile": {
+    "props": {
+      "blockClass": "product-quantity-mobile"
+    },
+    "children": ["product-quantity#product-detail"]
+  },
+  "product-quantity#product-detail": {
+    "props": {
+      "showLabel": true,
+      "size": "small"
+    }
+  }
+}

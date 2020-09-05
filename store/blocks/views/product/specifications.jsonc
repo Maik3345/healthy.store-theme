@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#product-specification": {
+    "props": { "blockClass": "product-specification" },
+    "children": ["isobar-specification#product-detail"]
+  },
+  "isobar-specification#product-detail": {
+    "props": {
+      "specifications": [
+        { "name": "Registro INVIMA", "highlight": false },
+        { "name": "Presentación", "highlight": false }
+      ]
+    }
+  }
+}
