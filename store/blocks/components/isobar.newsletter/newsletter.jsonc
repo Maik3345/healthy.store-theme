@@ -6,7 +6,9 @@
       "placeholderText": "Escribe aquí tu correo electrónico",
       "errorEmailMessage": "Por favor ingrese un email válido",
       "terms": "Al comprar estarás aceptando el tratamiento de datos personales de acuerdo a la políticas de privacidad.",
-      "beforeHtml": "<p class='vtex-newsletter-title'>suscríbete</p>"
+      "beforeHtml": "<p class='vtex-newsletter-title'>suscríbete</p>",
+      "buttonWithIcon": "nav-arrow--right",
+      "buttonWithIconSize": 16
     },
     "children": ["newsletter"]
   }
