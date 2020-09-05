@@ -1,7 +1,6 @@
 {
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#product-breadcrumb-mobile",
       "flex-layout.row#searchtitle",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#productCount",
@@ -16,12 +15,5 @@
         "mode2": "normal"
       }
     }
-  },
-  "flex-layout.row#product-breadcrumb-mobile": {
-    "props": {
-      "marginTop": 4,
-      "blockClass": "breadcrumb-mobile"
-    },
-    "children": ["breadcrumb-mobile"]
   }
 }

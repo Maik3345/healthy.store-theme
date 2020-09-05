@@ -254,3 +254,25 @@
 .flexRow--search-fetch-previous-mobile {
   border-top: 2px solid #f0f0f0;
 }
+
+/* Product Details */
+.flexRow--short-description
+  :global(.vtex-store-components-3-x-productDescriptionText)
+  :global(.vtex-store-components-3-x-container) {
+  height: 130px;
+}
+
+.flexRow--short-description :global(.vtex-store-components-3-x-showMoreButton) {
+  padding: 10px 45px;
+  font-size: 13px;
+  font-weight: bold;
+  background: white;
+  border: solid 1px #3c3c3c;
+}
+
+.flexRow--short-description
+  :global(.vtex-store-components-3-x-showMoreButton):hover {
+  background: #ed1c24;
+  border: solid 1px #ed1c24;
+  color: #ffffff;
+}

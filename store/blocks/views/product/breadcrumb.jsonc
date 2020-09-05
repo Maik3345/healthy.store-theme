@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4,
+      "blockClass": "breadcrumb-desktop"
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#product-breadcrumb-mobile": {
+    "props": {
+      "marginTop": 4,
+      "blockClass": "breadcrumb-mobile"
+    },
+    "children": ["breadcrumb-mobile"]
+  }
+}

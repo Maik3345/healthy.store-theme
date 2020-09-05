@@ -116,3 +116,17 @@
 .buyButtonIcon {
   display: none;
 }
+
+.descriptionCollapse {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .containerDescription {
+    display: none;
+  }
+
+  .descriptionCollapse {
+    display: block;
+  }
+}

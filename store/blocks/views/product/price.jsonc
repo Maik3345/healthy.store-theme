@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#details-price-container": {
+    "children": [
+      "flex-layout.col#product-list-price",
+      "flex-layout.col#product-selling-price"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "product-detais-price"
+    }
+  },
+  "flex-layout.col#product-list-price": {
+    "children": ["product-list-price"],
+    "props": {
+      "rowGap": 5
+    }
+  },
+  "flex-layout.col#product-selling-price": {
+    "children": ["product-selling-price"],
+    "props": {
+      "rowGap": 5
+    }
+  }
+}
