@@ -9,7 +9,8 @@
 
 .collapsibleTitle {
   color: #08428f;
-  font-size: 24px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .collapsibleLinksText {

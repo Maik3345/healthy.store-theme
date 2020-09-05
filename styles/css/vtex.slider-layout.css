@@ -100,13 +100,16 @@
 
 .paginationDot--carousel-home-banner,
 .paginationDot--shelf-carousel {
-  background: transparent;
-  border: solid 1px #3c3c3c;
+  background: rgba(60, 60, 60, .14);
   padding: 6px;
+  width: 12px;
+  height: 12px;
 }
 .paginationDot--carousel-home-banner--isActive,
 .paginationDot--shelf-carousel--isActive {
   background: #3c3c3c;
+  width: 16px;
+  height: 16px;
 }
 
 .paginationDot--carousel-home-main {
