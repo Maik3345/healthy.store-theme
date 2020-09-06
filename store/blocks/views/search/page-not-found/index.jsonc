@@ -1,0 +1,79 @@
+{
+  "flex-layout.row#page-not-found": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "search-not-found",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#not-found-text-one",
+      "rich-text#not-found-text-two",
+      "flex-layout.col#text-not-found-three",
+      "flex-layout.col#text-not-found-four",
+      "flex-layout.col#text-not-found-five"
+    ]
+  },
+  "rich-text#not-found-text-one": {
+    "props": {
+      "text": "Error",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-code",
+      "blockClass": "vtex-not-found-text-one"
+    }
+  },
+  "rich-text#not-found-text-two": {
+    "props": {
+      "text": "404",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-code",
+      "blockClass": "vtex-not-found-text-two"
+    }
+  },
+  "flex-layout.col#text-not-found-three": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#not-found-text-three"]
+  },
+  "rich-text#not-found-text-three": {
+    "props": {
+      "text": "Página no encontrada",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-code",
+      "blockClass": "vtex-not-found-text-three"
+    }
+  },
+  "flex-layout.col#text-not-found-four": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#not-found-text-four"]
+  },
+  "rich-text#not-found-text-four": {
+    "props": {
+      "text": "Te invitamos a seguir navegando por nuestra tienda. Tenemos mucho más que ofrecerte.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-code",
+      "blockClass": "vtex-not-found-text-four"
+    }
+  },
+  "flex-layout.col#text-not-found-five": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#not-found-text-five"]
+  },
+  "rich-text#not-found-text-five": {
+    "props": {
+      "text": "[Ir al home](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-code",
+      "blockClass": "vtex-not-found-text-five"
+    }
+  }
+}

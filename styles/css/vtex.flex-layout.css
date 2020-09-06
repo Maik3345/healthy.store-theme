@@ -391,3 +391,10 @@
   margin-bottom: 15px;
   margin-top: 17px;
 }
+
+/* Page not found */
+.flexRowContent--search-not-found {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

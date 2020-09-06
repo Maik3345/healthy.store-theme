@@ -69,13 +69,13 @@
 
 .paragraph--marks-carousel-title {
   text-transform: uppercase;
-  color: #3C3C3C;
+  color: #3c3c3c;
   font-weight: bold;
 }
 
 .paragraph--carousel-home,
 .paragraph--rich-shelf-title {
-  color: #3C3C3C;
+  color: #3c3c3c;
   text-transform: uppercase;
 }
 
@@ -104,4 +104,53 @@
 /* Marks carousel */
 .paragraph--marks-carousel-title {
   margin-top: 0px;
+}
+
+/* Page not found */
+.paragraph--vtex-not-found-text-one {
+  color: #3c3c3c;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 100px 0 20px;
+}
+.paragraph--vtex-not-found-text-two {
+  color: #3c3c3c;
+  font-size: 200px;
+  margin: 0;
+  font-weight: bold;
+  line-height: 130px;
+}
+.paragraph--vtex-not-found-text-three {
+  color: #3c3c3c;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.paragraph--vtex-not-found-text-four {
+  color: #3c3c3c;
+  margin: 0 0 30px;
+  font-size: 16px;
+}
+
+.paragraph--vtex-not-found-text-five {
+  text-decoration: none;
+  width: 216px;
+  height: 43px;
+  background: #ed1c24;
+  border: 1px solid #ed1c24;
+  border-radius: 1px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 30px;
+  margin-bottom: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link--vtex-not-found-text-five {
+  color: #ffffff;
+  text-decoration: none;
+  outline: none;
+  text-transform: uppercase;
 }
