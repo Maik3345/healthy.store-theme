@@ -1,0 +1,53 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop#order-placed",
+      "header-layout.mobile#order-placed"
+    ]
+  },
+
+  "header-layout.desktop#order-placed": {
+    "children": ["flex-layout.row#logo-order-placed-web"]
+  },
+  "header-layout.mobile#order-placed": {
+    "children": ["flex-layout.row#logo-order-placed-mobile"]
+  },
+  "flex-layout.row#logo-order-placed-web": {
+    "children": ["logo#desktop-order-placed"],
+    "props": {
+      "blockClass": "main-header-logo-order-placed-web",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#logo-order-placed-mobile": {
+    "children": ["logo#mobile-order-placed"],
+    "props": {
+      "blockClass": "main-header-logo-order-placed-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "logo#mobile-order-placed": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/assets/vtex.file-manager-graphql/images/a6160655-4f55-4bc9-be38-6b8ae0095790___0af78c2a0ba783c1c66bfed876a21d21.svg",
+      "width": "200"
+    }
+  },
+  "logo#desktop-order-placed": {
+    "props": {
+      "title": "Puntos colombias",
+      "href": "/",
+      "url": "/assets/vtex.file-manager-graphql/images/a6160655-4f55-4bc9-be38-6b8ae0095790___0af78c2a0ba783c1c66bfed876a21d21.svg",
+      "width": "300"
+    }
+  }
+}

@@ -18,10 +18,7 @@
     "after": ["footer.store"],
     "required": ["login-content"]
   },
-  "store.orderplaced.custom": {
-    "before": ["header.full"],
-    "after": ["footer.store"]
-  },
+  "store.orderplaced.custom": {},
   "store.product.custom": {
     "before": ["header.full"],
     "after": ["footer.store"]

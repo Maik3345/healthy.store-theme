@@ -1,0 +1,96 @@
+{
+  "footer.store#order-placed": {
+    "children": ["flex-layout.row#footer-order-placed"]
+  },
+  "flex-layout.row#footer-order-placed": {
+    "props": {
+      "blockClass": "footer-order-placed"
+    },
+    "children": ["footer-render#order-placed"]
+  },
+  "footer-render#order-placed": {
+    "children": ["html-render#footer-order-placed"],
+    "props": {
+      "showComponent": true,
+      "typeConfiguration": "columns",
+      "columns": {
+        "show": true,
+        "alignCollapse": "right",
+        "collapseOnWeb": false,
+        "hideWhenIsMobile": true,
+        "links": [
+          {
+            "title": "Contácto",
+            "icon": null,
+            "linksItems": [
+              {
+                "icon": { "id": "hpa-profile", "size": 24 },
+                "seo": { "class": "", "id": "" },
+                "text": "Carrera 37 # 13-186 Acopi Yumbo, Colombia",
+                "url": "/"
+              },
+              {
+                "icon": { "id": "hpa-profile", "size": 24 },
+                "seo": { "class": "", "id": "" },
+                "text": "+57 (2) 386 58 80",
+                "url": "/"
+              },
+              {
+                "icon": { "size": 24, "id": "hpa-profile" },
+                "seo": { "class": "", "id": "" },
+                "text": "contacto@healthy-america.com.co"
+              }
+            ]
+          }
+        ]
+      },
+      "logo": {
+        "show": true,
+        "text": {
+          "title": "Contacto",
+          "message": "Oficina principal"
+        },
+        "image": {
+          "alt": "",
+          "logoUrl": "",
+          "url": "/",
+          "height": { "mobile": "0", "web": "0" },
+          "width": { "mobile": "0", "web": "0" }
+        }
+      },
+      "information": { "show": true },
+      "social": {
+        "show": true,
+        "icons": [
+          {
+            "id": "hpa-profile",
+            "size": 30,
+            "url": "",
+            "seo": { "id": "", "class": "" }
+          },
+          {
+            "id": "hpa-profile",
+            "size": 30,
+            "url": "",
+            "seo": { "id": "", "class": "" }
+          },
+          {
+            "id": "hpa-profile",
+            "size": 30,
+            "url": "",
+            "seo": { "id": "", "class": "" }
+          }
+        ]
+      },
+      "image": "/assets/vtex.file-manager-graphql/images/8c183cc3-31d4-45ff-8019-627da1b2c797__8e598586e90e583aa5df11ab98bdcf9c.svg"
+    }
+  },
+  "html-render#footer-order-placed": {
+    "props": {
+      "schemaName": "Html Render",
+      "showComponent": true,
+      "htmlContent": "<p>Healthy America, Todos los derechos reservados 2018. Implementado por EISO S.A.S.</p>",
+      "customClass": "vtex-order-placed-html-render-content"
+    }
+  }
+}

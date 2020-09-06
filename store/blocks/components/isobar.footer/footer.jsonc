@@ -207,24 +207,7 @@
           }
         ]
       },
-      "image": "/assets/vtex.file-manager-graphql/images/8c183cc3-31d4-45ff-8019-627da1b2c797__8e598586e90e583aa5df11ab98bdcf9c.svg",
-      "children": [
-        {
-          "key": "around-store.home/$after_footer.store/footer-chef#principal-0",
-          "ref": null,
-          "props": {
-            "id": "html-render-chef#footer",
-            "blockProps": {
-              "schemaName": "Html Render",
-              "showComponent": true,
-              "htmlContent": "<p>Site Information Html Render</p>",
-              "customClass": ""
-            },
-            "treePath": "store.home/$after_footer.store/footer-chef#principal"
-          },
-          "_owner": null
-        }
-      ]
+      "image": "/assets/vtex.file-manager-graphql/images/8c183cc3-31d4-45ff-8019-627da1b2c797__8e598586e90e583aa5df11ab98bdcf9c.svg"
     }
   },
   "flex-layout.row#newsletter": {
