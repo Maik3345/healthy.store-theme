@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.3.2] - 2020-09-05
+
+### Fixed
+
+- Fix my account design
+- Fix login design
+
 ## [1.3.1] - 2020-09-04
 
 ### Fixed
