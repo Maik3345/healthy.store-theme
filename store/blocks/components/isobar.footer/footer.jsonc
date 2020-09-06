@@ -149,19 +149,31 @@
             "icon": null,
             "linksItems": [
               {
-                "icon": { "id": "hpa-profile", "size": 24 },
+                "icon": {
+                  "isSvg": true,
+                  "id": "<svg class=\"vtex-icon-svg-footer-columns\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><defs><style>.social-pins-a,.social-pin-b{fill:#ed1c24;}.a{opacity:0;}</style></defs><circle class=\"social-pin-b\" cx=\"1.5\" cy=\"1.5\" r=\"1.5\" transform=\"translate(10.503 8.002)\"/><path class=\"social-pin-b\" d=\"M12,2A8,8,0,0,0,4,9.923c0,5.481,7.052,11.583,7.352,11.843a1,1,0,0,0,1.3,0C13,21.505,20,15.4,20,9.922A8,8,0,0,0,12,2Zm0,11a3.5,3.5,0,1,1,3.5-3.5A3.5,3.5,0,0,1,12,13Z\" transform=\"translate(0.001 0.001)\"/></svg>",
+                  "size": 24
+                },
                 "seo": { "class": "", "id": "" },
                 "text": "Carrera 37 # 13-186 Acopi Yumbo, Colombia",
                 "url": "/"
               },
               {
-                "icon": { "id": "hpa-profile", "size": 24 },
+                "icon": {
+                  "isSvg": true,
+                  "id": "<svg class=\"vtex-icon-svg-footer-columns\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 22 22\"><defs><style>.phone-icon-a,.phone-icon-b{fill:#ed1c24;}.a{opacity:0;}</style></defs><path class=\"phone-icon-b\" d=\"M16.169,20.4A14.187,14.187,0,0,1,2,6.232,4.232,4.232,0,0,1,6.232,2a3.625,3.625,0,0,1,.708.064A3.487,3.487,0,0,1,7.6,2.23a.92.92,0,0,1,.6.69l1.26,5.52a.92.92,0,0,1-.239.846c-.12.129-.129.138-1.26.727a9.118,9.118,0,0,0,4.481,4.5c.6-1.141.607-1.15.736-1.27A.92.92,0,0,1,14.025,13l5.52,1.26a.92.92,0,0,1,.662.6,3.993,3.993,0,0,1,.175.672,4.389,4.389,0,0,1,.055.7A4.232,4.232,0,0,1,16.169,20.4Z\" transform=\"translate(-0.16 -0.16)\"/></svg>",
+                  "size": 24
+                },
                 "seo": { "class": "", "id": "" },
                 "text": "+57 (2) 386 58 80",
                 "url": "/"
               },
               {
-                "icon": { "size": 24, "id": "hpa-profile" },
+                "icon": {
+                  "isSvg": true,
+                  "size": 24,
+                  "id": "<svg class=\"vtex-icon-svg-footer-columns\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><defs><style>.mail-icon-a,.mail-icon-b{fill:#ed1c24;}.a{opacity:0;}</style></defs><path class=\"mail-icon-b\" d=\"M19,4H5A3,3,0,0,0,2,7V17a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7a3,3,0,0,0-3-3Zm0,2-6.5,4.47a1,1,0,0,1-1,0L5,6Z\"/></svg>"
+                },
                 "seo": { "class": "", "id": "" },
                 "text": "contacto@healthy-america.com.co"
               }
@@ -188,19 +200,22 @@
         "show": true,
         "icons": [
           {
-            "id": "hpa-profile",
+            "isSvg": true,
+            "id": "<svg class=\"vtex-icon-svg-footer\" id=\"fb\" xmlns=\"http://www.w3.org/2000/svg\" width=\"15.666\" height=\"29.921\" viewBox=\"0 0 15.666 29.921\"> <path id=\"Trazado_12687\"data-name=\"Trazado 12687\" d=\"M537.018,1055.145h3.172v-4.986h-4.754a6.445,6.445,0,0,0-4.894,2.4s-1.3,1.223-1.318,4.806h0v3.74h-4.7v5.294h4.7v13.678h5.42V1066.4h4.662l.65-5.294h-5.312v-3.74h0A2.175,2.175,0,0,1,537.018,1055.145Z\" transform=\"translate(-524.525 -1050.159)\" fill=\"#ed1c24\" /></svg>\n",
             "size": 30,
             "url": "",
             "seo": { "id": "", "class": "" }
           },
           {
-            "id": "hpa-profile",
+            "isSvg": true,
+            "id": "<svg class=\"vtex-icon-svg-footer\" id=\"ig\" xmlns=\"http://www.w3.org/2000/svg\" width=\"29.692\" height=\"29.691\" viewBox=\"0 0 29.692 29.691\">\n  <path id=\"Trazado_438\" data-name=\"Trazado 438\" d=\"M774.4,1081.15H763a9.148,9.148,0,0,0-9.149,9.149v11.4a9.148,9.148,0,0,0,9.149,9.147h11.4a9.147,9.147,0,0,0,9.148-9.147v-11.4A9.148,9.148,0,0,0,774.4,1081.15Zm6.3,19.45a7.392,7.392,0,0,1-7.391,7.392h-9.209a7.392,7.392,0,0,1-7.393-7.392v-9.208a7.393,7.393,0,0,1,7.393-7.392H773.3a7.393,7.393,0,0,1,7.391,7.392Z\" transform=\"translate(-753.851 -1081.15)\" fill=\"#ed1c24\"/>\n  <path id=\"Trazado_439\" data-name=\"Trazado 439\" d=\"M794.84,1112.774a7.82,7.82,0,1,0,7.821,7.82A7.82,7.82,0,0,0,794.84,1112.774Zm0,12.526a4.705,4.705,0,1,1,4.7-4.705A4.706,4.706,0,0,1,794.84,1125.3Z\" transform=\"translate(-779.595 -1105.696)\" fill=\"#ed1c24\"/>\n  <path id=\"Trazado_440\" data-name=\"Trazado 440\" d=\"M849.588,1105.326a1.989,1.989,0,1,1-1.989-1.99A1.99,1.99,0,0,1,849.588,1105.326Z\" transform=\"translate(-825.076 -1098.371)\" fill=\"#ed1c24\"/>\n</svg>\n",
             "size": 30,
             "url": "",
             "seo": { "id": "", "class": "" }
           },
           {
-            "id": "hpa-profile",
+            "isSvg": true,
+            "id": "<svg class=\"vtex-icon-svg-footer\" xmlns=\"http://www.w3.org/2000/svg\" width=\"29.723\" height=\"20.738\" viewBox=\"0 0 29.723 20.738\"><defs><style>.a{fill:#ed1c24;opacity: 1}.b{fill:#f8f8f8;opacity: 1}</style></defs><path class=\"a\" d=\"M1002.256,1139.875c0,3.746-1.281,6.783-5.025,6.783H977.96c-3.746,0-5.427-3.037-5.427-6.783V1132.7c0-3.746,1.521-6.782,5.267-6.782h19.589c3.747,0,4.868,3.036,4.868,6.782Z\" transform=\"translate(-972.533 -1125.92)\"/><g transform=\"translate(11.883 6.316)\"><path class=\"b\" d=\"M1039.68,1161.61l8.1,4.226-8.1,4.225Z\" transform=\"translate(-1039.68 -1161.61)\"/></g></svg>",
             "size": 30,
             "url": "",
             "seo": { "id": "", "class": "" }

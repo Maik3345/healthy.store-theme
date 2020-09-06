@@ -1,6 +1,9 @@
 {
-    "store.orderplaced.custom": {
-      "blocks": ["order-placed"]
-    }
+  "store.orderplaced.custom": {
+    "parent": {
+      "header": "header",
+      "footer": "footer.store#order-placed"
+    },
+    "blocks": ["order-placed"]
   }
-  
+}

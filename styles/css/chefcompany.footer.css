@@ -100,3 +100,22 @@
   font-size: 14px;
   font-weight: bold;
 }
+
+:global(.vtex-order-placed-html-render-content) {
+  color: #969696;
+  padding: 10px;
+}
+
+.socialIconsItemSvg :global(.vtex-icon-svg-footer) {
+  height: 30px;
+  width: 30px;
+  fill: #ed1c24;
+  color: #ed1c24;
+}
+
+.collapsibleIconLinks :global(.vtex-icon-svg-footer-columns) {
+  height: 20px;
+  width: 20px;
+  fill: #ed1c24;
+  color: #ed1c24;
+}

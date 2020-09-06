@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fix my account design
 - Fix login design
 - Added Page not found styles
+- Added Footer and Header For the orderPlaced page
 
 ## [1.3.1] - 2020-09-04
 
