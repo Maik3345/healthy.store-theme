@@ -1,0 +1,56 @@
+.formTitle:before {
+  content: "";
+    width: 100%;
+    height: 27px;
+    background: url(/arquivos/logo.png);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.formTitle  {
+  font-weight: bold;
+  color: #ed1c24;
+}
+
+.accountOptions {
+  text-align: center;
+}
+
+.optionsListItem :global(.vtex-button) {
+  width: 100%;
+  font-size: 12px;
+  padding: 0 3px!important;
+  justify-content: center;
+  color: #3c3c3c;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 0;
+  border: 1px solid #3c3c3c;
+  border-radius: 1px;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.forgotPasswordLink,
+.dontHaveAccount  {
+  color: #3c3c3c;
+}
+
+.profile  {
+  padding: 0;
+}
+
+
+:global(.vtex-account_menu-link) {
+  opacity: 1 !important;
+}
+
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+  background: #ffffff;
+  border: none;
+  text-transform: initial;
+  color: #5a5a5a;
+  outline: none;
+}
