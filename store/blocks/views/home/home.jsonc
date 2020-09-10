@@ -1,6 +1,6 @@
 {
   "store.home.custom": {
-    "blocks": ["render-manager#home-six", "__fold__"]
+    "blocks": ["render-manager#home-six"]
   },
   "rich-text": {
     "props": {
