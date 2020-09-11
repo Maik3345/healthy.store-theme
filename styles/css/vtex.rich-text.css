@@ -154,3 +154,14 @@
   outline: none;
   text-transform: uppercase;
 }
+
+.wrapper--vtex-empty-cart {
+  width: 100%;
+}
+
+.paragraph--vtex-empty-cart {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 19px;
+}

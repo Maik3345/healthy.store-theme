@@ -5,6 +5,7 @@
 
 .footerRowLogoAndColumns {
   max-width: 1330px;
+  padding: 0;
 }
 
 .collapsibleTitle {
@@ -47,13 +48,17 @@
 .logoContainerMobile {
   display: none;
 }
-
-.footerRowMobile {
+.footerRowSocialAndInfo.footerRowMobile {
   margin-top: 20px;
+  padding: 0;
+}
+
+.footerRowSocialAndInfo.footerRowMobile {
+  padding: 0 30px;
 }
 
 .footerSocialNetworkContainerMobile {
-  max-width: 300px;
+  width: 100%;
   margin: 0 auto;
 }
 .footerSocialNetworkContainerMobile .socialIconsContainer {
@@ -68,7 +73,7 @@
 }
 
 .footerSiteInformationContainerMobile {
-  max-width: 300px;
+  width: 100%;
   margin: 0 auto;
   border-radius: 0 0 10px 10px;
   border-top: none;
@@ -118,4 +123,36 @@
   width: 20px;
   fill: #ed1c24;
   color: #ed1c24;
+}
+
+.columnLinksCollapsibleContainerMobile :global(.vtex__icon-caret-down),
+.columnLinksCollapsibleContainerMobile :global(.vtex__icon-caret-up) {
+  color: #08428f;
+  padding-right: 40px;
+}
+
+@media (max-width: 600px) {
+  .columnLinksCollapsibleContainerMobile {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+    border-radius: 1px;
+    background: #fff;
+  }
+
+  .collapsibleLinksContainer {
+    margin: 0;
+    background: #f8f8f8;
+    padding: 30px;
+    border-top: 1px solid #eaeaea;
+  }
+
+  .columnLinksCollapsible {
+    height: 30px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 25px 0 25px 30px;
+  }
 }

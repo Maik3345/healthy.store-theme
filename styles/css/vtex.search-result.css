@@ -111,6 +111,12 @@
   font-weight: bold;
 }
 
+.buttonShowMore :global(.vtex-button):hover {
+  background: #ed1c24;
+  border-color: #ed1c24;
+  color: white;
+}
+
 .galleryItem :global(.vtex-product-summary-2-x-container) {
   margin: 0;
   padding: 5px;

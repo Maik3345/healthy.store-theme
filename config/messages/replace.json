@@ -9,5 +9,27 @@
         "context": "vtex.minicart@2.x"
       }
     ]
+  },
+  "save": {
+    "to": "es-CO",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/search-result.show-more-button",
+        "targetMessage": "Cargar más",
+        "context": "vtex.search-result@3.x"
+      }
+    ]
+  },
+  "save": {
+    "to": "es-CO",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/search-result.show-previous-button",
+        "targetMessage": "Cargar menos",
+        "context": "vtex.search-result@3.x"
+      }
+    ]
   }
 }

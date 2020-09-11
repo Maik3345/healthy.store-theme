@@ -177,3 +177,7 @@
 .newsletterCheckbox :global(.vtex-checkbox__line-container) {
   display: none;
 }
+
+.newsletterInput :global(.vtex-styleguide-9-x-input) {
+  font-size: 14px;
+}

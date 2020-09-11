@@ -90,7 +90,8 @@
 }
 
 .paginationDotsContainer--carousel-home-banner,
-.paginationDotsContainer--shelf-carousel {
+.paginationDotsContainer--shelf-carousel,
+.paginationDotsContainer--carousel-marks-banner {
   bottom: -40px;
 }
 
@@ -99,14 +100,16 @@
 }
 
 .paginationDot--carousel-home-banner,
-.paginationDot--shelf-carousel {
-  background: rgba(60, 60, 60, .14);
+.paginationDot--shelf-carousel,
+.paginationDot--carousel-marks-banner {
+  background: rgba(60, 60, 60, 0.14);
   padding: 6px;
   width: 12px;
   height: 12px;
 }
 .paginationDot--carousel-home-banner--isActive,
-.paginationDot--shelf-carousel--isActive {
+.paginationDot--shelf-carousel--isActive,
+.paginationDot--carousel-marks-banner--isActive {
   background: #3c3c3c;
   width: 16px;
   height: 16px;
@@ -156,4 +159,14 @@
 
 .slideChildrenContainer--shelf-carousel {
   padding: 10px 0;
+}
+
+.slide--carousel-marks-banner {
+  padding: 0 10px;
+}
+
+.imageElement--carousel-marks-banner {
+  max-height: 200px !important;
+  max-width: 200px;
+  border-radius: 10px;
 }

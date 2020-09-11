@@ -13,7 +13,8 @@
       "stack-layout#prodsum",
       "product-summary-name",
       "product-summary-space",
-      "add-to-cart-button#shelf"
+      "flex-layout.row#product-prices-and-sku-selector",
+      "with-add-to-cart-manager"
     ]
   },
   "flex-layout.row#product-prices-and-sku-selector": {

@@ -1,17 +1,18 @@
 .formTitle:before {
   content: "";
-    width: 100%;
-    height: 27px;
-    background: url(/arquivos/logo.png);
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 15px;
+  width: 100%;
+  height: 27px;
+  background: url(/arquivos/logo.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 15px;
 }
 
-.formTitle  {
+.formTitle {
   font-weight: bold;
   color: #ed1c24;
+  font-size: 14px;
 }
 
 .accountOptions {
@@ -21,7 +22,7 @@
 .optionsListItem :global(.vtex-button) {
   width: 100%;
   font-size: 12px;
-  padding: 0 3px!important;
+  padding: 0 3px !important;
   justify-content: center;
   color: #3c3c3c;
   font-weight: bold;
@@ -34,20 +35,20 @@
 }
 
 .forgotPasswordLink,
-.dontHaveAccount  {
+.dontHaveAccount {
   color: #3c3c3c;
 }
 
-.profile  {
+.profile {
   padding: 0;
 }
-
 
 :global(.vtex-account_menu-link) {
   opacity: 1 !important;
 }
 
-:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper)
+  :global(.vtex-button) {
   background: #ffffff;
   border: none;
   text-transform: initial;

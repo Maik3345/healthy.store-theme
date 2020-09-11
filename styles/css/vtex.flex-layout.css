@@ -10,6 +10,9 @@
   background-color: #fafbfb;
   padding: 0;
 }
+.flexRow--main-header-mobile {
+  background: #fff;
+}
 
 /* Header */
 .flexRow--main-header {
@@ -116,6 +119,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 40px 0 60px 0;
+  overflow: hidden;
 }
 
 .flexRow--slider-layout-home {

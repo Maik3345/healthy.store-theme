@@ -1,3 +1,8 @@
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
@@ -201,7 +206,14 @@
 
 @media (min-width: 600px) {
   .productImagesGallerySwiperContainer {
-    width: 417px;
-    height: 420px;
+    /* width: 417px;
+    height: 420px; */
   }
+}
+
+.shareContainer {
+  padding: 0 20px;
+}
+.productDescriptionText .container {
+  padding: 0;
 }

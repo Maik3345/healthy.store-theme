@@ -177,3 +177,8 @@
   font-size: 18px;
   margin-left: 10px;
 }
+
+.collapsibleContainer,
+.tabsDescriptionContainer {
+  padding: 0 20px;
+}

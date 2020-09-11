@@ -9,8 +9,8 @@
       },
       "image": {
         "maxWidth": "1280px",
-        "web": "/assets/vtex.file-manager-graphql/images/175ec56a-3deb-4720-8483-ab6bd994475c___8a776b32cf6949c6d149873ec322b414.png",
-        "mobile": "",
+        "web": "https://dummyimage.com/1280x250/cfc9cf/fff",
+        "mobile": "https://dummyimage.com/400x400/cfc9cf/fff",
         "url": "/",
         "linkTarget": "_self"
       }
@@ -26,8 +26,8 @@
       },
       "image": {
         "maxWidth": "1280px",
-        "web": "/assets/vtex.file-manager-graphql/images/7d57146b-e3dd-4963-875c-de9632221413___0a56e4b9345eb7dba0567d96b1feacb6.png",
-        "mobile": "",
+        "web": "https://dummyimage.com/1280x400/cfc9cf/fff",
+        "mobile": "https://dummyimage.com/400x400/cfc9cf/fff",
         "url": "/",
         "linkTarget": "_self"
       }
