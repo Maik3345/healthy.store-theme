@@ -168,7 +168,6 @@
 /* Product Gallery */
 .productImagesGallerySwiperContainer {
   border: 3px solid #f8f8f8;
-  padding: 10px;
   background: #fff;
 }
 
@@ -188,6 +187,7 @@
   justify-content: center;
   border: 3px solid #f8f8f8;
   border-radius: 1px;
+  overflow: hidden;
 }
 
 .carouselGaleryCursor .swiperPaginationClickable {
@@ -202,13 +202,6 @@
 .carouselGaleryCursor .swiperBullet {
   height: 11px;
   width: 11px;
-}
-
-@media (min-width: 600px) {
-  .productImagesGallerySwiperContainer {
-    /* width: 417px;
-    height: 420px; */
-  }
 }
 
 .shareContainer {

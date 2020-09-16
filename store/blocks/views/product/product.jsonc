@@ -20,7 +20,7 @@
       "marginBottom": 7,
       "paddingTop": 7,
       "paddingBottom": 7,
-      "horizontalAlign": "center"
+      "horizontalAlign": "left"
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
@@ -70,7 +70,7 @@
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 0,
-      "width": "40%"
+      "width": "60%"
     },
     "children": [
       "flex-layout.row#product-name",
@@ -122,7 +122,8 @@
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass": "buy-button-product-detail"
     },
     "children": ["add-to-cart-button"]
   },

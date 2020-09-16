@@ -210,6 +210,10 @@
 }
 
 /*Search Result*/
+
+.search-result-container{
+  
+}
 .flexRowContent--vtex-title-container {
   position: relative;
 }
@@ -243,7 +247,7 @@
   .flexColChild--vtex-search-result-title
     :global(.vtex-search-result-3-x-galleryTitle--layout) {
     font-size: 50px;
-    max-width: 400px;
+    max-width: 600px;
   }
 }
 
@@ -328,6 +332,12 @@
 }
 
 /* Product Detail Product Quantity*/
+
+.flexRow--buy-button-product-detail {
+  width: 100%;
+  max-width: 579px;
+}
+
 .flexRow--product-quantity
   :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
   align-items: flex-start;

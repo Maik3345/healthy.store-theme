@@ -70,6 +70,9 @@
     "children": ["search-fetch-more"]
   },
   "flex-layout.row#products": {
+    "props": {
+      "blockClass": "search-result-container"
+    },
     "children": ["search-content"]
   },
   "search-content": {
@@ -79,7 +82,8 @@
   "flex-layout.row#contentmobile": {
     "children": ["search-content"],
     "props": {
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
     }
   },
 

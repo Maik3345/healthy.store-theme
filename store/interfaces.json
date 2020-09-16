@@ -26,5 +26,6 @@
   "store.search.custom": {
     "before": ["header.full"],
     "after": ["footer.store"]
-  }
+  },
+  "store.custom.landing-page": {}
 }

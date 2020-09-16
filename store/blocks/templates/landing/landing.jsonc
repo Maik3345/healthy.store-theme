@@ -1,0 +1,10 @@
+{
+  "store.custom.landing-page": {
+    "parent": {
+      "header": "header.full",
+      "footer": "footer.store"
+    },
+    "blocks": ["html-render#landing-page", "wrapper-component#featured-carousel-one"]
+  },
+  "html-render#landing-page": {}
+}

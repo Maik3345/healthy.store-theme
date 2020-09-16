@@ -44,3 +44,8 @@
 .showCategoryDepartmentContainerInner {
   background: #ffffff;
 }
+
+.categoryDepartmentText,
+.categoryDepartmentTextMobile {
+  font-size: 28px;
+}

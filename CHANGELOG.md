@@ -7,11 +7,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [1.3.4] - 2020-09-10
+## [1.3.6] - 2020-09-15
+
+### Fixed
+
+- Fix issues detected in the site for the team of Qa
+
+## [1.3.5] - 2020-09-10
 
 ### Fixed
 
 - Fix issues detected in Plp, Pdp, Minicart, home, Footer, Login
+
+## [1.3.4] - 2020-09-10
+
+### Fixed
+
+- Fix issues detected in Plp
 
 ## [1.3.3] - 2020-09-06
 
