@@ -16,9 +16,9 @@
 
 .departmentGridItemContainerImage {
   padding: 10px 10px 0 10px;
-  border-left: 3px solid #F8F8F8;
-  border-right: 3px solid #F8F8F8;
-  border-top: 3px solid #F8F8F8;
+  border-left: 3px solid #f8f8f8;
+  border-right: 3px solid #f8f8f8;
+  border-top: 3px solid #f8f8f8;
   border-radius: 0;
 }
 
@@ -28,15 +28,15 @@
 }
 
 .departmentGridItemContainerDescription {
-  border-left: 3px solid #F8F8F8;
-  border-right: 3px solid #F8F8F8;
-  border-bottom: 3px solid #F8F8F8;
+  border-left: 3px solid #f8f8f8;
+  border-right: 3px solid #f8f8f8;
+  border-bottom: 3px solid #f8f8f8;
   border-radius: 0 !important;
 }
 
 .departmentGridDescription {
-  font-size: 20px;
-  color: #3C3C3C;
+  font-size: 17px;
+  color: #3c3c3c;
   padding: 22px 0 !important;
 }
 
@@ -139,4 +139,28 @@
 .featuredCarouselImage:hover {
   box-shadow: 0px 10px 20px rgba(75, 75, 75, 0.25);
   border: 0.5px solid rgba(204, 204, 204, 1) !important;
+}
+
+.departmentGridItemContainer {
+  max-width: 277px;
+}
+
+@media (max-width: 600px) {
+  .departmentGridItemContainer {
+    max-width: 160px;
+    padding: 3px;
+  }
+
+  .departmentGridItemContainerImage {
+    padding: 4px 4px 0 4px;
+  }
+
+  .departmentGridDescription {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .departmentGridItemContainer::before,
+  .departmentGridItemContainer::after {
+    display: none;
+  }
 }

@@ -47,5 +47,8 @@
 
 .categoryDepartmentText,
 .categoryDepartmentTextMobile {
-  font-size: 28px;
+  font-size: 36px;
+  font-family: "Bebas Neue";
+  letter-spacing: 4px;
+  font-weight: 400;
 }

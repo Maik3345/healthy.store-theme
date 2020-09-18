@@ -62,6 +62,7 @@
         "desktop": "auto",
         "phone": "16:9"
       },
+      "hiddenImages": ["2"],
       "showNavigationArrows": true,
       "displayThumbnailsArrows": true
     }
@@ -125,7 +126,7 @@
       "marginBottom": 7,
       "blockClass": "buy-button-product-detail"
     },
-    "children": ["add-to-cart-button"]
+    "children": ["add-to-cart-button#product"]
   },
 
   "share#default": {

@@ -211,8 +211,7 @@
 
 /*Search Result*/
 
-.search-result-container{
-  
+.search-result-container {
 }
 .flexRowContent--vtex-title-container {
   position: relative;
@@ -241,12 +240,15 @@
   position: relative;
   padding-right: 30px;
   max-width: 245px;
+  font-family: "Bebas Neue";
+  letter-spacing: 6px;
+  font-weight: normal;
 }
 
 @media (min-width: 600px) {
   .flexColChild--vtex-search-result-title
     :global(.vtex-search-result-3-x-galleryTitle--layout) {
-    font-size: 50px;
+    font-size: 60px;
     max-width: 600px;
   }
 }

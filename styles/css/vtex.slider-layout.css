@@ -71,13 +71,18 @@
 }
 
 .sliderRightArrow--shelf-carousel,
-.sliderLeftArrow--shelf-carousel {
+.sliderLeftArrow--shelf-carousel,
+.sliderRightArrow--featured-carousel-banner,
+.sliderLeftArrow--featured-carousel-banner {
   background: #ed1c24 !important;
   color: white;
   padding: 8px 13px;
 }
+
 .sliderRightArrow--shelf-carousel .caretIcon,
-.sliderLeftArrow--shelf-carousel .caretIcon {
+.sliderLeftArrow--shelf-carousel .caretIcon,
+.sliderRightArrow--featured-carousel-banner .caretIcon,
+.sliderLeftArrow--featured-carousel-banner .caretIcon {
   width: 15px;
 }
 
@@ -89,8 +94,17 @@
   left: -15px;
 }
 
+.sliderRightArrow--featured-carousel-banner {
+  right: -15px;
+}
+
+.sliderLeftArrow--featured-carousel-banner {
+  left: -15px;
+}
+
 .paginationDotsContainer--carousel-home-banner,
 .paginationDotsContainer--shelf-carousel,
+.paginationDotsContainer--featured-carousel-banner,
 .paginationDotsContainer--carousel-marks-banner {
   bottom: -40px;
 }
@@ -101,6 +115,7 @@
 
 .paginationDot--carousel-home-banner,
 .paginationDot--shelf-carousel,
+.paginationDot--featured-carousel-banner,
 .paginationDot--carousel-marks-banner {
   background: rgba(60, 60, 60, 0.14);
   padding: 6px;
@@ -109,6 +124,7 @@
 }
 .paginationDot--carousel-home-banner--isActive,
 .paginationDot--shelf-carousel--isActive,
+.paginationDot--featured-carousel-banner--isActive,
 .paginationDot--carousel-marks-banner--isActive {
   background: #3c3c3c;
   width: 16px;

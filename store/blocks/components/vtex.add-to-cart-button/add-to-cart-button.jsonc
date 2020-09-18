@@ -8,7 +8,7 @@
   },
   "add-to-cart-button#product": {
     "props": {
-      "text": "Añadir al carrito",
+      "text": "AGREGAR AL CARRITO",
       "unavailableText": "No disponible"
     }
   }

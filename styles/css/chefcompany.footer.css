@@ -10,8 +10,10 @@
 
 .collapsibleTitle {
   color: #08428f;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: uppercase;
+  font-family: "Bebas Neue";
+  letter-spacing: 3.75px;
 }
 
 .collapsibleLinksText {
@@ -70,6 +72,9 @@
 
 .footerSocialNetworkContainerMobile .socialIconsContainer .socialIconsItem {
   padding: 9px 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footerSiteInformationContainerMobile {
@@ -80,7 +85,7 @@
   height: auto;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 960px) {
   .footerContainer {
     padding-top: 60px;
   }
@@ -131,7 +136,7 @@
   padding-right: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 960px) {
   .columnLinksCollapsibleContainerMobile {
     width: 100%;
     margin: 0 auto;
