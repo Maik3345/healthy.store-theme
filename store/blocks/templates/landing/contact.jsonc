@@ -1,0 +1,15 @@
+{
+  "store.custom.isobar-contact": {
+    "parent": {
+      "header": "header.full",
+      "footer": "footer.store"
+    },
+    "blocks": ["flex-layout.row#contact"]
+  },
+  "flex-layout.row#contact": {
+    "props": {
+      "blockClass": "contactclass"
+    },
+    "children": ["isobar-contact"]
+  }
+}

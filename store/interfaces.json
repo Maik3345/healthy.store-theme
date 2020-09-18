@@ -27,5 +27,6 @@
     "before": ["header.full"],
     "after": ["footer.store"]
   },
-  "store.custom.landing-page": {}
+  "store.custom.landing-page": {},
+  "store.custom.isobar-contact": {}
 }

@@ -421,3 +421,11 @@
   height: 80px;
   align-items: center;
 }
+
+/*Contact Page*/
+.flexRow--contactclass :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 700px !important;
+  max-width: 100% !important;
+  margin: 0 auto;
+  display: block;
+}

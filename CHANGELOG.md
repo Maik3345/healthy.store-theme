@@ -7,11 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [1.3.7] - 2020-09-18
+## [1.5.0] - 2020-09-18
 
 ### Fixed
 
 - Fix issues detected in the site for the team of Qa
+
+## [1.4.7] - 2020-09-18
+
+### Fixed
+
+- Add template for contact page
 
 ## [1.3.6] - 2020-09-15
 
