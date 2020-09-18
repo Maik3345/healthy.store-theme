@@ -73,6 +73,8 @@
 .sliderRightArrow--shelf-carousel,
 .sliderLeftArrow--shelf-carousel,
 .sliderRightArrow--featured-carousel-banner,
+.sliderRightArrow--carousel-marks-banner,
+.sliderLeftArrow--carousel-marks-banner,
 .sliderLeftArrow--featured-carousel-banner {
   background: #ed1c24 !important;
   color: white;
@@ -82,15 +84,19 @@
 .sliderRightArrow--shelf-carousel .caretIcon,
 .sliderLeftArrow--shelf-carousel .caretIcon,
 .sliderRightArrow--featured-carousel-banner .caretIcon,
-.sliderLeftArrow--featured-carousel-banner .caretIcon {
+.sliderLeftArrow--featured-carousel-banner .caretIcon,
+.sliderRightArrow--carousel-marks-banner .caretIcon,
+.sliderLeftArrow--carousel-marks-banner .caretIcon {
   width: 15px;
 }
 
-.sliderRightArrow--shelf-carousel {
+.sliderRightArrow--shelf-carousel,
+.sliderRightArrow--carousel-marks-banner {
   right: -15px;
 }
 
-.sliderLeftArrow--shelf-carousel {
+.sliderLeftArrow--shelf-carousel,
+.sliderLeftArrow--carousel-marks-banner {
   left: -15px;
 }
 
