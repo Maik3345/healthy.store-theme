@@ -22,7 +22,7 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-bar",
       "flex-layout.col#login",
-      "minicart.v2"
+      "minicart.v2#healthy"
     ]
   },
   "flex-layout.col#category-menu": {

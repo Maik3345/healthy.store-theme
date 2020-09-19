@@ -37,7 +37,7 @@
     "children": ["login#header-mobile"]
   },
   "flex-layout.col#minicart-mobile": {
-    "children": ["minicart.v2"],
+    "children": ["minicart.v2#healthy"],
     "props": {
       "width": "10%",
       "blockClass": "minicart-mobile"
