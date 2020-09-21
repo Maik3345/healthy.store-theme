@@ -39,7 +39,17 @@
 .socialIconsItem {
   border-right: solid 2px #e3e3e3;
   padding: 9px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.socialIconsItemSvg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .socialIconsContainer {
   border: solid 2px #e3e3e3;
   border-radius: 10px 0 0 10px;
