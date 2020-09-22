@@ -27,6 +27,10 @@
     "before": ["header.full"],
     "after": ["footer.store"]
   },
+  "store.not-found.custom": {
+    "before": ["header.full"],
+    "after": ["footer.store"]
+  },
   "store.custom.landing-page": {},
   "store.custom.isobar-contact": {}
 }

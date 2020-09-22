@@ -50,5 +50,11 @@
         "simulationBehavior": "skip"
       }
     }
+  },
+  "store.not-found.custom#product": {
+    "blocks": ["search-not-found-layout#custom"]
+  },
+  "store.not-found.custom#search": {
+    "blocks": ["search-not-found-layout#custom"]
   }
 }

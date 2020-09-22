@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.5.2] - 2020-09-21
+
+### Fixed
+
+- Add not-found.custom interface
+
 ## [1.5.1] - 2020-09-21
 
 ### Fixed
