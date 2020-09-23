@@ -182,3 +182,7 @@
 .tabsDescriptionContainer {
   padding: 0 20px;
 }
+
+.webTabsContainer :global(.vtex-tab__button) {
+  padding: 20px 10px;
+}
