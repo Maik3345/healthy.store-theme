@@ -28,7 +28,7 @@
 
 /* Slider Carousel home */
 .sliderLayoutContainer--carousel-home-main {
-  max-width: 1366px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .paginationDotsContainer--carousel-home-main {
-  bottom: 50px;
+  bottom: 20px;
 }
 
 .paginationDot--carousel-home-banner,

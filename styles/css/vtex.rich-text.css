@@ -72,7 +72,7 @@
 .paragraph--marks-carousel-title {
   color: #3c3c3c;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 6px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -133,11 +133,13 @@
   font-size: 30px;
   font-weight: 300;
   margin: 10px 0;
+  letter-spacing: 1.2px;
 }
 .paragraph--vtex-not-found-text-four {
   color: #3c3c3c;
   margin: 0 0 30px;
-  font-size: 16px;
+  font-size: 18px;
+  letter-spacing: 1.2px;
 }
 
 .paragraph--vtex-not-found-text-five {
@@ -154,6 +156,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  letter-spacing: 1.2px;
 }
 
 .link--vtex-not-found-text-five {

@@ -172,7 +172,7 @@
 
 .flexRow--shelf-home {
   background: #f8f8f8;
-  padding: 100px 0px;
+  padding: 20px 0px 60px;
 }
 
 .flexCol--product-price-healthy {
@@ -201,6 +201,10 @@
 .flexCol--minicart-mobile :global(.vtex-button__label) {
   padding-left: 0;
   padding-right: 0;
+}
+
+.flexRowContent--row-name-and-remove {
+  display: flex;
 }
 
 .flexColChild--login-container-mobile :global(.vtex-button__label) {
@@ -247,7 +251,7 @@
 @media (min-width: 600px) {
   .flexColChild--vtex-search-result-title
     :global(.vtex-search-result-3-x-galleryTitle--layout) {
-    font-size: 60px;
+    font-size: 45px;
     max-width: 600px;
   }
 }
@@ -432,4 +436,19 @@
 
 .department-grid-row {
   padding: 20px 0 60px;
+}
+
+/* Shelf Rich Text */
+.flexRow--rich-shelf-text {
+  width: 100%;
+}
+
+/* Department Component*/
+.flexRowContent--department-grid-row {
+  padding: 0px 0 40px 0;
+}
+
+/* Search Not Found */
+.flexCol--search-not-found-icon {
+  margin-top: 150px;
 }

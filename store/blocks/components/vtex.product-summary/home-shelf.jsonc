@@ -2,7 +2,7 @@
   "flex-layout.row#shelf": {
     "props": {
       "blockClass": "shelf-home",
-      "preventVerticalStretch": true,
+      "preventVerticalStretch": false,
       "preventHorizontalStretch": true
     },
     "children": [
@@ -11,6 +11,12 @@
     ]
   },
   "flex-layout.row#rich-shelf-title": {
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "width": "100%",
+      "blockClass": "rich-shelf-text"
+    },
     "children": ["rich-text#rich-shelf-title"]
   },
   "rich-text#rich-shelf-title": {

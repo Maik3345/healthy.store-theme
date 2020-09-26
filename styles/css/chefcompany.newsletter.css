@@ -7,7 +7,7 @@
   max-width: 1170px;
   background: #ffffff;
   margin: 0 auto;
-  margin-top: -50px;
+  margin-top: -20px;
   z-index: 10;
   position: relative;
   margin-bottom: 30px;
@@ -28,6 +28,9 @@
 
 .promiseItemTitle {
   margin-left: 10px;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
 }
 
 .flexRowContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
@@ -37,7 +40,7 @@
 
 @media (max-width: 800px) {
   .promiseContainer {
-    height: 170px !important;
+    height: 110px !important;
   }
   .flexRowContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     max-width: 100%;
@@ -52,7 +55,7 @@
   }
 
   .promiseContainer {
-    width: 90% !important;
+    width: 100% !important;
     padding: 0 10px;
   }
   .promiseContainer .flexRowContent {
@@ -247,4 +250,12 @@
 
 .primaryContactBtn:hover {
   background: #fa393f;
+}
+
+@media (max-width: 600px) {
+  .promiseItemTitle {
+    font-size: 9px !important;
+    margin: 0;
+    font-weight: bold;
+  }
 }

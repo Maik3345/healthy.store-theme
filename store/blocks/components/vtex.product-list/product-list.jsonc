@@ -182,6 +182,7 @@
     ],
     "props": {
       "fullWidth": true,
+      "blockClass": "row-name-and-remove",
       "preventVerticalStretch": true
     }
   },

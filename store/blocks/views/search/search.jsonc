@@ -113,8 +113,11 @@
       "blockClass": "switcherMobileCol"
     }
   },
-  "search-not-found-layout#custom": {
+  "search-not-found-layout#custom-page": {
     "children": ["flex-layout.row#page-not-found"]
+  },
+  "search-not-found-layout#custom": {
+    "children": ["flex-layout.row#search-not-found"]
   },
   "gallery": {
     "blocks": ["product-summary.shelf"]

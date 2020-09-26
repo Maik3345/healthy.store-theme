@@ -1,0 +1,94 @@
+{
+  "flex-layout.row#search-not-found": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "search-not-found",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#icon-search",
+      "flex-layout.col#text-not-found-search-three",
+      "flex-layout.col#text-not-found-search-four",
+      "flex-layout.col#text-not-found-search-five"
+    ]
+  },
+  "flex-layout.col#icon-search": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "search-not-found-icon"
+    },
+    "children": ["vtex-icon-render#not-found-icon"]
+  },
+  "vtex-icon-render#not-found-icon": {
+    "props": {
+      "id": "inf-star",
+      "size": 60,
+      "color": "red",
+      "blockClass": "search-not-found"
+    }
+  },
+  "rich-text#not-found-text-search-one": {
+    "props": {
+      "text": "Error",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-code",
+      "blockClass": "vtex-not-found-text-one"
+    }
+  },
+  "rich-text#not-found-text-search-two": {
+    "props": {
+      "text": "404",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-code",
+      "blockClass": "vtex-not-found-text-two"
+    }
+  },
+  "flex-layout.col#text-not-found-search-three": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#not-found-text-search-three"]
+  },
+  "rich-text#not-found-text-search-three": {
+    "props": {
+      "text": "PRODUCTO NO ENCONTRADO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-code",
+      "blockClass": "vtex-not-found-text-three"
+    }
+  },
+  "flex-layout.col#text-not-found-search-four": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#not-found-text-search-four"]
+  },
+  "rich-text#not-found-text-search-four": {
+    "props": {
+      "text": "Te invitamos a seguir navegando por nuestra tienda. Tenemos mucho más que ofrecerte.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-code",
+      "blockClass": "vtex-not-found-text-four"
+    }
+  },
+  "flex-layout.col#text-not-found-search-five": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#not-found-text-search-five"]
+  },
+  "rich-text#not-found-text-search-five": {
+    "props": {
+      "text": "[Ir al home](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-code",
+      "blockClass": "vtex-not-found-text-five"
+    }
+  }
+}

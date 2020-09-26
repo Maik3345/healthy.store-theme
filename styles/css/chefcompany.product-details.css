@@ -89,7 +89,6 @@
     padding: 0;
   }
 
-  .quantitySelectorPluss,
   .quantitySelectorDelete {
     display: none;
   }
@@ -181,6 +180,7 @@
 .collapsibleContainer,
 .tabsDescriptionContainer {
   padding: 0 20px;
+  margin-bottom: 0;
 }
 
 .webTabsContainer :global(.vtex-tab__button) {

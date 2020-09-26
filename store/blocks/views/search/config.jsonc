@@ -52,7 +52,7 @@
     }
   },
   "store.not-found.custom#product": {
-    "blocks": ["search-not-found-layout#custom"]
+    "blocks": ["search-not-found-layout#custom-page"]
   },
   "store.not-found.custom#search": {
     "blocks": ["search-not-found-layout#custom"]

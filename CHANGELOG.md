@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.5.5] - 2020-09-25
+
+### Fixed
+
+- Fix Spacing in search-not-found
+
+## [1.5.4] - 2020-09-25
+
+### Fixed
+
+- Fix reported problems for the client
+
 ## [1.5.3] - 2020-09-22
 
 ### Fixed

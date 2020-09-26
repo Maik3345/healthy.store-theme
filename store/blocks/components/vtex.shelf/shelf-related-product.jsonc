@@ -1,0 +1,12 @@
+{
+  "shelf.relatedProducts": {
+    "blocks": ["product-summary.shelf#one"],
+    "props": {
+      "recommendation": "view",
+      "hideUnavailableItems": true,
+      "productList": {
+        "titleText": "Productos Recomendados"
+      }
+    }
+  }
+}
