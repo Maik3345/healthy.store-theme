@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.5.6] - 2020-09-29
+
+### Fixed
+
+- Fix align in the notFound content and the height of the item in the department gallery
+
 ## [1.5.5] - 2020-09-25
 
 ### Fixed
