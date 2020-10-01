@@ -212,3 +212,8 @@
 .productDescriptionText .container {
   padding: 0;
 }
+
+.discountInsideContainer{
+  background: #ed1c24;
+  font-weight: bold;
+}
