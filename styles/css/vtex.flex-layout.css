@@ -445,6 +445,6 @@
 
 @media (min-width: 1026px) {
   .flexRowContent--search-not-found {
-    margin-left: -130px;
+    /*margin-left: -130px;*/
   }
 }
