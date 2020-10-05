@@ -18,7 +18,6 @@
 }
 .flexRowContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   border-right: solid 3px #ed1c24;
-  max-width: 20%;
 }
 
 .newsletterButtonWithIcon {
@@ -30,7 +29,7 @@
   font-size: 12px;
   text-align: left;
   font-weight: bold;
-  max-width: 60%;
+  max-width: 73%;
 }
 
 .flexRowContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
@@ -182,6 +181,10 @@
   .newsletterButton {
     position: absolute;
     right: -1px;
+  }
+
+  .flexRowContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child .promiseItemTitle {
+    max-width: 50%;
   }
 }
 

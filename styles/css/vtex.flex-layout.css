@@ -27,18 +27,21 @@
   justify-content: center;
 }
 
-.flexRowContent--menu-link, .flexRowContent--main-header {
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
   padding: 0 0.5rem;
 }
 
 @media screen and (min-width: 40em) {
-  .flexRowContent--menu-link, .flexRowContent--main-header {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
     padding: 0 1rem;
   }
 }
 
 @media screen and (min-width: 80rem) {
-  .flexRowContent--menu-link, .flexRowContent--main-header {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
     padding: 0 0.25rem;
   }
 }
@@ -221,7 +224,8 @@
 
 /*Search Result*/
 
-.search-result-container {}
+.search-result-container {
+}
 
 .flexRowContent--vtex-title-container {
   position: relative;
@@ -241,7 +245,8 @@
   width: auto !important;
 }
 
-.flexColChild--vtex-search-result-title :global(.vtex-search-result-3-x-galleryTitle--layout) {
+.flexColChild--vtex-search-result-title
+  :global(.vtex-search-result-3-x-galleryTitle--layout) {
   color: #3c3c3c;
   font-size: 30px;
   width: auto;
@@ -250,13 +255,14 @@
   position: relative;
   padding-right: 30px;
   max-width: 245px;
-  font-family: "Bebas Neue";
-  letter-spacing: 6px;
+  /*font-family: "Bebas Neue";*/
+  /*letter-spacing: 6px;*/
   font-weight: normal;
 }
 
 @media (min-width: 600px) {
-  .flexColChild--vtex-search-result-title :global(.vtex-search-result-3-x-galleryTitle--layout) {
+  .flexColChild--vtex-search-result-title
+    :global(.vtex-search-result-3-x-galleryTitle--layout) {
     font-size: 45px;
     max-width: 600px;
   }
@@ -277,19 +283,23 @@
 
 /* Product Details */
 
-.flexRowContent--product-details-price :global(.vtex-product-price-1-x-sellingPriceValue) {
+.flexRowContent--product-details-price
+  :global(.vtex-product-price-1-x-sellingPriceValue) {
   font-size: 24px;
 }
 
-.flexRowContent--product-details-price :global(.vtex-product-price-1-x-listPriceValue) {
+.flexRowContent--product-details-price
+  :global(.vtex-product-price-1-x-listPriceValue) {
   font-size: 24px;
 }
 
-.flexRowContent--product-details-price-mobile :global(.vtex-product-price-1-x-sellingPriceValue) {
+.flexRowContent--product-details-price-mobile
+  :global(.vtex-product-price-1-x-sellingPriceValue) {
   font-size: 28px;
 }
 
-.flexRowContent--product-details-price-mobile :global(.vtex-product-price-1-x-listPriceValue) {
+.flexRowContent--product-details-price-mobile
+  :global(.vtex-product-price-1-x-listPriceValue) {
   font-size: 28px;
 }
 
@@ -300,7 +310,9 @@
   text-align: center;
 }
 
-.flexRow--short-description :global(.vtex-store-components-3-x-productDescriptionText) :global(.vtex-store-components-3-x-container) {
+.flexRow--short-description
+  :global(.vtex-store-components-3-x-productDescriptionText)
+  :global(.vtex-store-components-3-x-container) {
   height: 130px;
 }
 
@@ -312,7 +324,8 @@
   border: solid 1px #3c3c3c;
 }
 
-.flexRow--short-description :global(.vtex-store-components-3-x-showMoreButton):hover {
+.flexRow--short-description
+  :global(.vtex-store-components-3-x-showMoreButton):hover {
   background: #ed1c24;
   border: solid 1px #ed1c24;
   color: #ffffff;
@@ -320,7 +333,8 @@
 
 /* Product detail Description */
 
-.flexRowContent--short-description :global(.vtex-store-components-3-x-productDescriptionTitle) {
+.flexRowContent--short-description
+  :global(.vtex-store-components-3-x-productDescriptionTitle) {
   display: none;
 }
 
@@ -330,7 +344,8 @@
   margin-bottom: 20px;
 }
 
-.flexRowContent--short-description :global(.vtex-store-components-3-x-container) {
+.flexRowContent--short-description
+  :global(.vtex-store-components-3-x-container) {
   color: #000000;
   font-size: 16px;
 }
@@ -342,11 +357,13 @@
   max-width: 579px;
 }
 
-.flexRow--product-quantity :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+.flexRow--product-quantity
+  :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
   align-items: flex-start;
 }
 
-.flexRow--product-quantity-mobile :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+.flexRow--product-quantity-mobile
+  :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
@@ -354,11 +371,19 @@
   margin-top: 30px;
 }
 
-.flexRow--product-quantity :global(.vtex-product-quantity-1-x-quantitySelectorStepper), .flexRow--product-quantity-mobile :global(.vtex-product-quantity-1-x-quantitySelectorStepper) {
+.flexRow--product-quantity
+  :global(.vtex-product-quantity-1-x-quantitySelectorStepper),
+.flexRow--product-quantity-mobile
+  :global(.vtex-product-quantity-1-x-quantitySelectorStepper) {
   border: 1px solid #cccccc;
 }
 
-.flexRow--product-quantity :global(.vtex-numeric-stepper__minus-button), .flexRow--product-quantity :global(.vtex-numeric-stepper__plus-button), .flexRow--product-quantity :global(.vtex-numeric-stepper__input), .flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__minus-button), .flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__plus-button), .flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__input) {
+.flexRow--product-quantity :global(.vtex-numeric-stepper__minus-button),
+.flexRow--product-quantity :global(.vtex-numeric-stepper__plus-button),
+.flexRow--product-quantity :global(.vtex-numeric-stepper__input),
+.flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__minus-button),
+.flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__plus-button),
+.flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__input) {
   background: none;
   border: none;
   box-shadow: none;
@@ -366,7 +391,12 @@
   position: relative;
 }
 
-.flexRow--product-quantity :global(.vtex-numeric-stepper__minus-button__text), .flexRow--product-quantity :global(.vtex-numeric-stepper__plus-button__text), .flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__minus-button__text), .flexRow--product-quantity-mobile :global(.vtex-numeric-stepper__plus-button__text) {
+.flexRow--product-quantity :global(.vtex-numeric-stepper__minus-button__text),
+.flexRow--product-quantity :global(.vtex-numeric-stepper__plus-button__text),
+.flexRow--product-quantity-mobile
+  :global(.vtex-numeric-stepper__minus-button__text),
+.flexRow--product-quantity-mobile
+  :global(.vtex-numeric-stepper__plus-button__text) {
   border-radius: 50%;
   border: solid 1px #979899;
   font-weight: bold;
@@ -447,4 +477,27 @@
   .flexRowContent--search-not-found {
     /*margin-left: -130px;*/
   }
+}
+
+.flexRow--product-details-price {
+  position: relative;
+}
+
+.flexRow--product-details-price :global(.vtex-product-price-1-x-listPrice) {
+  position: absolute;
+  padding: 0;
+  left: 0px;
+}
+.flexRow--product-details-price
+  :global(.vtex-product-price-1-x-sellingPrice--hasListPrice) {
+  margin-top: 12px;
+  display: block;
+}
+
+.flexRow--product-details-price
+  :global(.vtex-product-price-1-x-listPriceValue) {
+  font-size: 20px;
+  margin-top: 2px;
+  position: relative;
+  display: block;
 }
