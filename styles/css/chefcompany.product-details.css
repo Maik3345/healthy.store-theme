@@ -95,8 +95,11 @@
 
   .quantitySelectorQuantity {
     height: 36px;
-    width: 100%;
     padding: 0;
+  }
+
+  .quantitySelectorContainer {
+    padding: 0 10px !important;
   }
 }
 

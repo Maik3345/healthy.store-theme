@@ -3,3 +3,8 @@
     flex-direction: column;
   }
 }
+
+:global(.vtex-my-orders-app-3-x-cancelBtn),
+:global(.vtex-account__order-details>div>div:nth-child(2)>ul>li:nth-child(2)) {
+  display: none;
+} 
