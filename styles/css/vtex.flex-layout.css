@@ -14,7 +14,7 @@
 }
 
 .flexRow--main-header-mobile {
-  background: #fff;
+  background: #fafbfb;
 }
 
 /* Header */
@@ -417,6 +417,11 @@
   .flexRow--breadcrumb-container {
     border-bottom: 1px solid #e5e5e5;
     margin-bottom: 25px;
+  }
+
+  .flexRow--main-header-mobile :global(.vtex-store-components-3-x-container) {
+    padding-left: 0px;
+    padding-right: 15px;
   }
 }
 

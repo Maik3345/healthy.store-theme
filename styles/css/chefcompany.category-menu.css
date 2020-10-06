@@ -16,7 +16,7 @@
   position: absolute;
   transform: rotate(-45deg);
   top: -11px;
-  left: 56px;
+  left: 27px;
   width: 0;
   height: 0;
   border-style: solid;
@@ -47,7 +47,7 @@
 
 .categoryDepartmentText,
 .categoryDepartmentTextMobile {
-  font-size: 36px;
+  font-size: 28px;
   /*font-family: "Bebas Neue";*/
   /*letter-spacing: 4px;*/
   font-weight: 400;

@@ -203,7 +203,7 @@
 }
 
 .unavailable::after{
-  content: 'No disponble';
+  content: 'No disponible';
   position: absolute;
   left: 0px;
   top: 10px;

@@ -89,6 +89,15 @@
   .promiseItemTitle {
     text-align: left;
   }
+
+  .flexRowContent :nth-child(2n) .promiseItemTitle {
+    width: 59%;
+  }
+
+  .flexRowContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2n) .promiseItemLine {
+    justify-content: flex-end;
+    padding-right: 10px !important;
+  }
 }
 
 .newsletterContainer {
