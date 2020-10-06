@@ -2,6 +2,8 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
+      "product-summary-attachment-list",
+      "product-specification-badges",
       "product-summary-name",
       "product-summary-space",
       "flex-layout.row#product-prices-and-sku-selector",
@@ -16,6 +18,11 @@
       "flex-layout.row#product-prices-and-sku-selector",
       "with-add-to-cart-manager"
     ]
+  },
+  "product-specification-badges": {
+    "props": {
+        "specificationGroupName": "allSpecifications"
+    }
   },
   "flex-layout.row#product-prices-and-sku-selector": {
     "children": ["flex-layout.col#product-prices"],

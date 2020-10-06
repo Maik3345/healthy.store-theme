@@ -151,8 +151,8 @@
   color: #ed1c24;
   font-weight: 400;
   font-size: 38px;
-  /*font-family: "Bebas Neue";*/
-  /*letter-spacing: 0.76px;*/
+  font-family: "Bebas Neue";
+  letter-spacing: 0.76px;
 }
 
 /* Social Share product detail */
@@ -216,4 +216,10 @@
 .discountInsideContainer{
   background: #ed1c24;
   font-weight: bold;
+  width: 48%;
+  padding: 8px 0px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 14px;
 }

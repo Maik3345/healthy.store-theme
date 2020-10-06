@@ -1,0 +1,25 @@
+.groupContainer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.badgeContainer{
+  background: #033980;
+  font-weight: bold;
+  width: 48%;
+  padding: 7px 0px;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.badgeText{
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+}

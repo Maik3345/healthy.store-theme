@@ -95,11 +95,8 @@
 
   .quantitySelectorQuantity {
     height: 36px;
+    width: 100%;
     padding: 0;
-  }
-
-  .quantitySelectorContainer {
-    padding: 0 10px !important;
   }
 }
 
@@ -188,4 +185,32 @@
 
 .webTabsContainer :global(.vtex-tab__button) {
   padding: 20px 10px;
+}
+
+
+.unavailable::before{
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 46%;
+  height: 35px;
+  z-index: 1;
+  background: gray;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.unavailable::after{
+  content: 'No disponble';
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 46%;
+  height: 35px;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
 }
