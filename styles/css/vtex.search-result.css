@@ -214,3 +214,12 @@
   font-size: 17px;
   font-weight: normal;
 }
+
+
+.filter__container--priceRange .filterTemplateOverflow  {
+  padding: 20px 30px;
+}
+
+.filter__container--selectedFilters .filterTemplateOverflow {
+  max-height: initial !important;
+}

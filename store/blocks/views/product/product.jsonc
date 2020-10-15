@@ -62,7 +62,7 @@
         "desktop": "auto",
         "phone": "16:9"
       },
-      "hiddenImages": ["2"],
+      "hiddenImages": ["2", "3"],
       "showNavigationArrows": true,
       "displayThumbnailsArrows": true
     }
